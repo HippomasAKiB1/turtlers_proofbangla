@@ -130,47 +130,73 @@ While these works provide foundational tools, **none integrate these capabilitie
 #### 5.2 System Architecture: Bengali-MMRAG
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         BENGALI-MMRAG FRAMEWORK                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  ┌──────────────────┐    ┌──────────────────────────────────────────────┐  │
-│  │   Document        │    │           RETRIEVAL PIPELINE                 │  │
-│  │   Ingestion       │    │  ┌─────────────┐   ┌──────────────┐        │  │
-│  │                   │    │  │  Text-Only  │   │  Visual-Only │        │  │
-│  │  ┌──────────┐    │    │  │  Retrieval  │   │  Retrieval   │        │  │
-│  │  │  OCR     │────┼────┼──▶│ (SBERT/     │   │  (CLIP/      │        │  │
-│  │  │(Tesseract)│    │    │  │  BanglaBERT)│   │   DINOv2)    │        │  │
-│  │  └──────────┘    │    │  └─────┬───────┘   └──────┬───────┘        │  │
-│  │  ┌──────────┐    │    │        │                  │                 │  │
-│  │  │  Layout  │    │    │        └────────┬─────────┘                 │  │
-│  │  │ Analysis │────┼────┼─────────────────┼───────────────────────────┤  │
-│  │  │(BaFCo DLA)│   │    │                 │                           │  │
-│  │  └──────────┘    │    │  ┌──────────────▼───────────────┐          │  │
-│  │  ┌──────────┐    │    │  │     Hybrid Retrieval         │          │  │
-│  │  │  Visual  │    │    │  │  (Multi-vector + Re-ranking) │          │  │
-│  │  │ Encoding │────┼────┼──▶│     + Layout-Aware Fusion   │          │  │
-│  │  │ (CLIP)   │    │    │  └──────────────┬───────────────┘          │  │
-│  │  └──────────┘    │    └─────────────────┼──────────────────────────┘  │
-│  └──────────────────┘                      │                             │
-│                              ┌──────────────▼──────────────────────────┐  │
-│                              │          GENERATION PIPELINE            │  │
-│                              │  ┌─────────────────────────────────┐   │  │
-│                              │  │  Context Assembly +             │   │  │
-│                              │  │  Bengali-Aware Prompt           │   │  │
-│                              │  │  Engineering                    │   │  │
-│                              │  └──────────────┬──────────────────┘   │  │
-│                              │  ┌──────────────▼──────────────────┐   │  │
-│                              │  │  LLM Generation                 │   │  │
-│                              │  │  (Gemini / Claude / GPT)       │   │  │
-│                              │  └──────────────┬──────────────────┘   │  │
-│                              │  ┌──────────────▼──────────────────┐   │  │
-│                              │  │  Verification &                │   │  │
-│                              │  │  Hallucination Reduction       │   │  │
-│                              │  └─────────────────────────────────┘   │  │
-│                              └──────────────────────────────────────┘  │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────────────────┐
+│                               BENGALI-MMRAG FRAMEWORK                                         │
+└───────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────┐
+│    DOCUMENT INGESTION   │
+├─────────────────────────┤
+│ • OCR (Tesseract)       │
+│ • Layout Analysis       │
+│   (BaFCo DLA)           │
+│ • Visual Encoding       │
+│   (CLIP)                │
+└────────────┬────────────┘
+             │
+             ▼
+
+
+┌───────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                RETRIEVAL PIPELINE                                             │
+├───────────────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                               │
+│  ┌─────────────────────────┐        ┌─────────────────────────┐                               │
+│  │   Text-Only Retrieval   │        │  Visual-Only Retrieval  │                               │
+│  │                         │        │                         │                               │
+│  │  SBERT / BanglaBERT     │        │   CLIP / DINOv2         │                               │
+│  └────────────┬────────────┘        └────────────┬────────────┘                               │
+│               │                                  │                                            │
+│               └───────────────┬──────────────────┘                                            │
+│                               ▼                                                               │
+│                 ┌────────────────────────────────────┐                                        │
+│                 │          Hybrid Retrieval          │                                        │
+│                 │                                    │                                        │
+│                 │ • Multi-vector Retrieval           │                                        │
+│                 │ • Re-ranking                       │                                        │
+│                 │ • Layout-Aware Fusion              │                                        │
+│                 └────────────────┬───────────────────┘                                        │
+│                                  │                                                            │
+└──────────────────────────────────┼────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+
+
+┌───────────────────────────────────────────────────────────────────────────────────────────────┐
+│                               GENERATION PIPELINE                                             │
+├───────────────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                               │
+│  ┌─────────────────────────┐                                                                  │
+│  │ Context Assembly +      │                                                                  │
+│  │ Bengali-Aware Prompt    │                                                                  │
+│  │ Engineering             │                                                                  │
+│  └────────────┬────────────┘                                                                  │
+│               │                                                                               │
+│               ▼                                                                               │
+│  ┌─────────────────────────┐                                                                  │
+│  │     LLM Generation      │                                                                  │
+│  │                         │                                                                  │
+│  │ Gemini / Claude / GPT   │                                                                  │
+│  └────────────┬────────────┘                                                                  │
+│               │                                                                               │
+│               ▼                                                                               │
+│  ┌─────────────────────────┐                                                                  │
+│  │ Verification &          │                                                                  │
+│  │ Hallucination Reduction │                                                                  │
+│  └─────────────────────────┘                                                                  │
+│                                                                                               │
+└───────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 **Key Components:**
@@ -297,17 +323,17 @@ While these works provide foundational tools, **none integrate these capabilitie
 
 #### 7.3 Timeline
 
-| Phase | Months | Activities | Deliverables |
+| Phase | Days | Activities | Deliverables |
 | :--- | :--- | :--- | :--- |
-| **Phase 1** | 1 | Download and analyze BaFCo dataset; literature review | Understanding of data schema, DLA/KIE annotations |
-| **Phase 2** | 1-2 | Convert KIE annotations to QA format; design architecture | QA pairs from BaFCo; architecture specification |
-| **Phase 3** | 2-3 | Implement Bengali-MMRAG system | Working system with text + visual retrieval |
-| **Phase 4** | 1-2 | Run experiments on BaFCo | Results comparing retrieval strategies |
-| **Phase 5** | 1 | Write thesis + prepare publication | Thesis draft; paper submission |
+| **Phase 1** | 5 | Download and analyze BaFCo dataset; literature review | Understanding of data schema, DLA/KIE annotations |
+| **Phase 2** | 10 | Convert KIE annotations to QA format; design architecture | QA pairs from BaFCo; architecture specification |
+| **Phase 3** | 15 | Implement Bengali-MMRAG system | Working system with text + visual retrieval |
+| **Phase 4** | 15 | Run experiments on BaFCo | Results comparing retrieval strategies |
+| **Phase 5** | 15 | Write thesis + prepare publication | Thesis draft; paper submission |
 
 ---
 
-### 8. Connection to Your Background
+### 8. Connection to Akib's Background
 
 | Your Experience | Connection to Thesis |
 | :--- | :--- |
