@@ -1,6 +1,6 @@
 # Licence for research outputs
 
-Copyright (c) 2026 Akib Hasan Pyil, Nazat E Rose Rhythm, Most. Sumaiya Habiba Nishat, S M Abdullah Shafi, Md. Ariful Islam
+Copyright (c) 2026 Akib Hasan Pyil, Nazat E Rose Rhythm, Most. Sumaiya Habiba Nishat, Md. Ariful Islam, S M Abdullah Shafi
 
 The research outputs in this repository are licensed under the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**: https://creativecommons.org/licenses/by/4.0/legalcode
 
