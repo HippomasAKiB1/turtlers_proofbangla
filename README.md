@@ -75,5 +75,13 @@ One main Bengali benchmark and a 299-row external set; three seeds; the XLM-R se
 ## Citation
 See `CITATION.cff`. No DOI or publication record exists yet.
 
+To obtain a DOI for this repository: sign in to https://zenodo.org with GitHub, enable this repository under *Account → GitHub*, then publish a GitHub release (for example `v1.0.0`). Zenodo archives the release and issues a DOI, which can then be added to `CITATION.cff` and to the paper's Data and Code Availability section.
+
 ## Licence
-Code: MIT (`LICENSE`), pending confirmation by the authors. The datasets are not included and keep their own terms (see `data/README.md`).
+| Material | Licence |
+|---|---|
+| Code (`notebooks/`, `scripts/`, `annotation/agreement.py`) | MIT, see `LICENSE` |
+| Research outputs (`predictions/`, `results/`, `annotation/` data files) and documentation | CC BY 4.0, see `LICENSE-DATA.md` |
+| Manuscript (`paper/`) | Not licensed; all rights reserved by the authors, subject to the publisher's agreement. ACM's `acmart.cls` and `.bst` keep their own licence |
+
+Gold labels and example ids derived from third-party datasets remain under those datasets' terms; no dataset text is included (see `data/README.md`).

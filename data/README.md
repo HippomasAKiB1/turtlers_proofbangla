@@ -14,7 +14,7 @@ No dataset is redistributed in this repository. Download each dataset from its s
 | Dataset | What the source states |
 |---|---|
 | BangHallu (Bhibranti) | The repository's MIT licence covers code only. Its README states the data text derives from Bengali Wikipedia (CC BY-SA 4.0) and from BCS/school question banks whose redistribution terms are unconfirmed (see the repository's `data/SOURCES.md`). Data licence: not settled. |
-| Olikbochon | No licence found. It was a private Kaggle competition (IUT CSE Fest 2026); the competition rules are only accessible on Kaggle after joining. Data licence: unknown. |
+| Olikbochon | No licence found. The Kaggle competition (IUT CSE Fest 2026) was private, but its labelled sample is publicly available on the web. Data licence: unknown. |
 | BanglaGovRAG | No licence file and no licence statement in the repository. Data licence: unknown (no licence granted by default). |
 | BD Legal QA | `LICENSE.md`: the release team's original contributions under CC BY 4.0; quoted Bangladesh statutory text is excluded from the grant. |
 | RAGTruth | The ParticleMedia/RAGTruth repository is under MIT. The Chinese translation used for M2: source and licence not recorded. |
