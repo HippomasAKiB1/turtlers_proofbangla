@@ -16,6 +16,6 @@ Paths are relative to the repository root. `results/original_run/` = outputs of 
 | Table 12, Sec. 5.7 | results/posthoc/tables/table12c_temperature_scaling.csv (means over seeds); results/original_run/aurc.json | AURC: confidence = distance of the seed-averaged probability from the mean threshold |
 | Table 13 | results/original_run/tables/table5_external_generalization_and_ablations.csv (accuracy and efficiency section); results/original_run/resources.json | M0 runs on CPU |
 | Table 14, Sec. 5.8 | annotation/agreement.py (run it); annotation/table13c_buckets_for_paper.csv; results/posthoc/tables/table13_error_taxonomy_banghallu_only.csv | Labels (LLM-drafted, author-reviewed): annotation/error_sample_100.csv; tagger categories: annotation/key.csv |
-| Split overlap (Sec. 3.2) | results/posthoc/tables/table14_split_overlap.csv | |
+| Split overlap (Sec. 3.3) | results/posthoc/tables/table14_split_overlap.csv | |
 | Pooling robustness (<= 0.009) | results/original_run/tables/table5_external_generalization_and_ablations.csv (pooling section) | |
 | Tables 2, 3, 15; Fig. 1; Algorithm 1 | — | Descriptive only (detectors, design, implementation settings, study flow); every value repeats a setting stated in Sections 3–4 and contains no result |
