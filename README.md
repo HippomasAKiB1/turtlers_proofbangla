@@ -73,9 +73,7 @@ The original rule-based taxonomy in `results/original_run/tables/table8_error_ta
 One main Bengali benchmark and a 299-row external set; three seeds; the XLM-R sequence-head failure is unexplained; the legal negatives are synthetic perturbations; answer-level, not span-level, evaluation; the error labels are LLM-drafted and author-reviewed, not independently annotated, and validate only the tagger's coarse behaviour; dataset versions were not pinned by commit; model checkpoints are not released.
 
 ## Citation
-See `CITATION.cff`. No DOI or publication record exists yet.
-
-To obtain a DOI for this repository: sign in to https://zenodo.org with GitHub, enable this repository under *Account → GitHub*, then publish a GitHub release (for example `v1.0.0`). Zenodo archives the release and issues a DOI, which can then be added to `CITATION.cff` and to the paper's Data and Code Availability section.
+Archived on Zenodo: release v1.0.0, DOI [10.5281/zenodo.24136778](https://doi.org/10.5281/zenodo.24136778). The concept DOI [10.5281/zenodo.24136777](https://doi.org/10.5281/zenodo.24136777) always resolves to the latest version. Citation metadata: `CITATION.cff`. The paper is under review; no publication record exists yet.
 
 ## Licence
 | Material | Licence |

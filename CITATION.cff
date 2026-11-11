@@ -18,9 +18,10 @@ authors:
   - family-names: "Shafi"
     given-names: "S M Abdullah"
     affiliation: "American International University-Bangladesh"
+version: "v1.0.0"
+doi: "10.5281/zenodo.24136778"
 repository-code: "https://github.com/HippomasAKiB1/turtlers_proofbangla"
 license:
   - MIT
   - CC-BY-4.0
 # MIT covers the code, CC BY 4.0 the research outputs; see LICENSE and LICENSE-DATA.md.
-# Pending: DOI (after the first archived release).
