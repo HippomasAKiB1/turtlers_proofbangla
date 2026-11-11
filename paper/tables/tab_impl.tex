@@ -1,0 +1,21 @@
+\begin{tabular}{@{}>{\raggedright}p{3.6cm}>{\raggedright\arraybackslash}p{9.4cm}@{}}
+\toprule
+Setting & Value \tabularnewline
+\midrule
+Optimizer & AdamW, weight decay 0.01; fused or 8-bit AdamW chosen by memory estimate \tabularnewline
+Schedule & linear, 10\% warm-up; gradient clipping 1.0 \tabularnewline
+Batch & effective batch size 16 by gradient accumulation; bf16 autocast \tabularnewline
+Maximum input length & 512 tokens (fine-tuned models); 4,096 tokens (M1, M2); context truncated, never the answer \tabularnewline
+Learning rate, epochs: M4 & $1.5\times10^{-5}$; 5, 8, 10 epochs for 100\%, 25\%, 10\% of the training data \tabularnewline
+Learning rate, epochs: M5 & $2\times10^{-5}$; 5 epochs \tabularnewline
+Learning rate, epochs: M3 (original) & $3\times10^{-5}$; 8, 10, 12 epochs; no normalizer \tabularnewline
+Early stopping & development AUROC, patience 4 epochs \tabularnewline
+Seeds & 42, 1337, 2026; 10\% and 25\% subsets sampled in question groups \tabularnewline
+Frozen parameters & word-embedding matrices of the XLM-R models (M3, M5) \tabularnewline
+M6 & 4-bit NF4; threshold on a stratified 300-example dev subset; evaluated on a stratified 600-example test subset \tabularnewline
+Threshold $\tau^*$ & maximizes Macro-F1 on BangHallu dev; frozen for all test, external and legal sets \tabularnewline
+Intervals & 95\% percentile bootstrap, 1,000 resamples; error-share correction 2,000 resamples \tabularnewline
+ECE & ten equal-width bins, top-label confidence \tabularnewline
+Hardware & one NVIDIA RTX 4060, 8~GB \tabularnewline
+\bottomrule
+\end{tabular}

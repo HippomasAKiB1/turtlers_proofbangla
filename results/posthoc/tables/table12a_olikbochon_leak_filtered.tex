@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Olikbochon external evaluation with and without the rows that have an exact or near-duplicate in the cleaned BangHallu train set. Frozen BangHallu-dev thresholds, per-seed F1 averaged; CI = seed-averaged bootstrap on the clean rows.}
+\label{tab:table12a_olikbochon_leak_filtered}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccccc}
+\toprule
+Model & N all & N clean & F1 all & F1 clean & CI clean & $\Delta$ (clean − all) & AUROC all & AUROC clean & BangHallu F1 & Gap (clean − BangHallu) \\
+\midrule
+M0 & 299 & 269 & 0.658 $\pm$ 0.000 & 0.644 $\pm$ 0.000 & [0.586, 0.702] & -0.014 & 0.629 & 0.605 & 0.653 & -0.009 \\
+M1 & 299 & 269 & 0.542 $\pm$ 0.000 & 0.544 $\pm$ 0.000 & [0.487, 0.603] & 0.002 & 0.602 & 0.592 & 0.533 & 0.011 \\
+M2 & 299 & 269 & 0.561 $\pm$ 0.000 & 0.546 $\pm$ 0.000 & [0.486, 0.602] & -0.015 & 0.598 & 0.582 & 0.508 & 0.038 \\
+M4 & 299 & 269 & 0.698 $\pm$ 0.032 & 0.684 $\pm$ 0.038 & [0.636, 0.730] & -0.014 & 0.782 & 0.774 & 0.832 & -0.148 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

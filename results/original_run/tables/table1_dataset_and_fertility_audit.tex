@@ -1,0 +1,25 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Dataset statistics and tokenizer fertility / truncation audit (EN = RAGTruth test, BN = BangHallu test). Context-only truncation keeps 100\textbackslash{}\% of answer tokens.}
+\label{tab:table1_dataset_and_fertility_audit}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccccccccccc}
+\toprule
+Section & Dataset & Train & Dev & Test & Context present (\%) & Label granularity & Hallucinated (\%) & License & Tokenizer & Max len & Tokens/word EN & Tokens/word BN & Examples truncated EN (\%) & Examples truncated BN (\%) & Ans tokens truncated BN naive (\%) & Ans tokens truncated BN ctx-only (\%) \\
+\midrule
+Dataset statistics & ragtruth & 14942.000 & 0.000 & 2675.000 & 100.000 & token/span + answer & 43.400 & MIT & -- & -- & -- & -- & -- & -- & -- & -- \\
+Dataset statistics & banghallu & 5627.000 & 1238.000 & 1228.000 & 59.000 & answer-level & 50.000 & see source card & -- & -- & -- & -- & -- & -- & -- & -- \\
+Dataset statistics & olikbochon & 239.000 & 29.000 & 31.000 & 43.500 & answer-level & 45.500 & see source card & -- & -- & -- & -- & -- & -- & -- & -- \\
+Dataset statistics & banglagovrag & 80.000 & 10.000 & 10.000 & 100.000 & answer-level & -- & see source card & -- & -- & -- & -- & -- & -- & -- & -- \\
+Dataset statistics & bdlegalqa & 1187.000 & 158.000 & 162.000 & 100.000 & answer-level & -- & see source card & -- & -- & -- & -- & -- & -- & -- & -- \\
+\midrule
+Tokenizer fertility audit & -- & -- & -- & -- & -- & -- & -- & -- & ModernBERT & 4096.000 & 1.279 & 9.182 & 0.000 & 0.160 & 0.000 & \textbf{0.000} \\
+Tokenizer fertility audit & -- & -- & -- & -- & -- & -- & -- & -- & EuroBERT & 4096.000 & 1.241 & 8.098 & 0.000 & 0.000 & 0.000 & \textbf{0.000} \\
+Tokenizer fertility audit & -- & -- & -- & -- & -- & -- & -- & -- & XLM-R-base & 512.000 & 1.398 & \underline{2.260} & 77.400 & 0.810 & 0.000 & \textbf{0.000} \\
+Tokenizer fertility audit & -- & -- & -- & -- & -- & -- & -- & -- & BanglaBERT-large & 512.000 & 2.139 & \textbf{1.437} & 92.800 & 0.330 & 0.000 & \textbf{0.000} \\
+Tokenizer fertility audit & -- & -- & -- & -- & -- & -- & -- & -- & ModernBERT @512 & 512.000 & 1.279 & 9.182 & 71.470 & 28.500 & 2.059 & \textbf{0.000} \\
+Tokenizer fertility audit & -- & -- & -- & -- & -- & -- & -- & -- & EuroBERT @512 & 512.000 & 1.241 & 8.098 & 69.270 & 24.430 & 0.829 & \textbf{0.000} \\
+\bottomrule
+\end{tabular}}
+\end{table*}

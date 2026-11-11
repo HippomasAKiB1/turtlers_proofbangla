@@ -1,0 +1,11 @@
+\begin{tabular}{@{}lrrrrllp{3.1cm}@{}}
+\toprule
+Dataset & Train & Dev & Test & Ctx.\ (\%) & Labels & Halluc.\ (\%) & Role \\
+\midrule
+RAGTruth (English) & 14,942 & 0 & 2,675 & 100.0 & token/span + answer & 43.4 & source domain (released detectors) \\
+BangHallu & 5,627 & 1,238 & 1,228 & 59.0 & answer-level & 50.0 & Bengali train / dev / test \\
+Olikbochon & 239 & 29 & 31 & 43.5 & answer-level & 45.5 & external Bengali evaluation \\
+BanglaGovRAG & 80 & 10 & 10 & 100.0 & reference answers only & -- & legal domain shift \\
+BD Legal QA & 1,187 & 158 & 162 & 100.0 & reference answers only & -- & legal domain shift \\
+\bottomrule
+\end{tabular}

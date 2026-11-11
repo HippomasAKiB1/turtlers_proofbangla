@@ -1,0 +1,22 @@
+# Python 3.11.17. Versions are those recorded by the original run in
+# results/original_run/experiment_manifest.json ("environment"). Packages without a recorded version are unpinned.
+# The run used torch 2.14.1 with CUDA 12.6 (install the matching wheel from https://pytorch.org for your platform).
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+seaborn==0.13.2
+torch==2.14.1
+transformers==4.57.6
+datasets==4.8.5
+sentence-transformers==5.7.0
+rank_bm25==0.2.2
+faiss-cpu==1.15.1
+bitsandbytes==0.50.2   # 8-bit optimizer and 4-bit quantization (CUDA GPU)
+tqdm                   # version not recorded
+ipython                # version not recorded
+# Bengali text normalizer used with BanglaBERT (version not recorded):
+git+https://github.com/csebuetnlp/normalizer
+# Optional, only for downloading Olikbochon from Kaggle (the notebook installs it on demand): kaggle

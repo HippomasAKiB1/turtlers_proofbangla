@@ -1,0 +1,48 @@
+# Datasets are not redistributed
+data/*
+!data/README.md
+
+# Working folder and large artefacts produced by the notebooks
+work/
+checkpoints/
+cache/
+*.pt
+*.safetensors
+*.bin
+
+# Python / Jupyter / OS
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# LaTeX build outputs
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.run.xml
+*.bcf
+paper/main.pdf
+paper/comment.cut
+
+# Journal-submission files kept out of the public repository
+paper/cover_letter_TALLIP.md
+paper/submission_checklist.md
+paper/change_log.md
+paper/README.txt
+paper/supplementary/
+
+# Files containing dataset text (BangHallu terms unresolved); text-free versions are in annotation/
+annotation/with_text/
+results/original_run/error_analysis_100_samples.csv
+
+# Unrelated placeholder for a future web app
+proofBangla_codebase/

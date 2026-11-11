@@ -1,0 +1,101 @@
+﻿id,category,category_name,sample_id
+7c90ab4a72d1a6f0,6,Paraphrase / lexical divergence,1
+9cea242225d42413,5,Subtle intrinsic contradiction,2
+b6486973c746ec5a,6,Paraphrase / lexical divergence,3
+ba6fbdc8256f578a,5,Subtle intrinsic contradiction,4
+111bab3093b3101a,5,Subtle intrinsic contradiction,5
+1138c4f83813a5da,4,Unsupported addition (extrinsic),6
+dccffdb6f02cb4bf,2,Entity / term substitution,7
+dba56a202f051610,6,Paraphrase / lexical divergence,8
+65be9c335ebfe2d9,1,Numeric / date / quantity mismatch,9
+63a98ffe7a7d5111,1,Numeric / date / quantity mismatch,10
+3f9c39c06b4ddda3,1,Numeric / date / quantity mismatch,11
+17c4d109744de7c4,2,Entity / term substitution,12
+906c8f18c02a21a2,6,Paraphrase / lexical divergence,13
+eff5b58757d3a862,2,Entity / term substitution,14
+2857be47a0cf6243,6,Paraphrase / lexical divergence,15
+8e5efe91899dab2b,1,Numeric / date / quantity mismatch,16
+060443cf4fcf8af2,6,Paraphrase / lexical divergence,17
+958af415f329d44a,6,Paraphrase / lexical divergence,18
+42242567dd151b17,1,Numeric / date / quantity mismatch,19
+4888fbed9ccfea9a,2,Entity / term substitution,20
+d11480a483d7be5e,5,Subtle intrinsic contradiction,21
+c828a2933c4e0db5,6,Paraphrase / lexical divergence,22
+617f61ac8b40dd36,2,Entity / term substitution,23
+d9a2b0574446d254,5,Subtle intrinsic contradiction,24
+db30abddb98e9ae4,6,Paraphrase / lexical divergence,25
+6e8c1973ce229c62,1,Numeric / date / quantity mismatch,26
+92041aba822667d0,5,Subtle intrinsic contradiction,27
+7591ecb65e5e4e92,8,Code-switch / script mismatch,28
+385052819c15ded9,1,Numeric / date / quantity mismatch,29
+94feb75cdaa7ae43,6,Paraphrase / lexical divergence,30
+01cc7ad3ca0f27cc,1,Numeric / date / quantity mismatch,31
+9c83c0eb7cc6626b,5,Subtle intrinsic contradiction,32
+2ab4237c21a46f43,6,Paraphrase / lexical divergence,33
+a9a6a62432d9e3be,2,Entity / term substitution,34
+1ee7ccbbb6738582,6,Paraphrase / lexical divergence,35
+69f011e9434f6594,1,Numeric / date / quantity mismatch,36
+3b44867e50c863a6,6,Paraphrase / lexical divergence,37
+c2ca857b2f53dbe2,6,Paraphrase / lexical divergence,38
+20c399e8905b8407,2,Entity / term substitution,39
+a09f20ca8741e1a6,1,Numeric / date / quantity mismatch,40
+1ed6f3156dd70fe2,5,Subtle intrinsic contradiction,41
+3261540f76edf39b,2,Entity / term substitution,42
+3c9cecc31b4ac094,1,Numeric / date / quantity mismatch,43
+888d038c368351b2,8,Code-switch / script mismatch,44
+d742480bf6431cde,2,Entity / term substitution,45
+6b641b11709e4fb9,1,Numeric / date / quantity mismatch,46
+eb0586c8eb31e6af,6,Paraphrase / lexical divergence,47
+48937c90c740dc46,2,Entity / term substitution,48
+61999ead8e7fb84b,5,Subtle intrinsic contradiction,49
+e6d0d6a7946b5b69,1,Numeric / date / quantity mismatch,50
+498c7bfb5f07efc5,2,Entity / term substitution,51
+2d6a6ea4c1c701c4,1,Numeric / date / quantity mismatch,52
+9c1ef5988bbb12fe,1,Numeric / date / quantity mismatch,53
+1eb4ce8135aa2ca7,4,Unsupported addition (extrinsic),54
+30424a40469183bb,1,Numeric / date / quantity mismatch,55
+3ec53327c746ac93,6,Paraphrase / lexical divergence,56
+12e550945e651bc5,1,Numeric / date / quantity mismatch,57
+74077fdb4fbb3916,6,Paraphrase / lexical divergence,58
+32f97c84752409a7,2,Entity / term substitution,59
+6b0b0d18df790862,6,Paraphrase / lexical divergence,60
+13ba8f260c940efa,5,Subtle intrinsic contradiction,61
+454f5cc81b5e6454,10,Legal reference mismatch,62
+33493045716a526c,5,Subtle intrinsic contradiction,63
+95550b51d9822a84,5,Subtle intrinsic contradiction,64
+16fc5dfb89489275,5,Subtle intrinsic contradiction,65
+8200b2476d9738af,6,Paraphrase / lexical divergence,66
+e1752789f907635e,5,Subtle intrinsic contradiction,67
+1ee8f3aba5e3d01a,6,Paraphrase / lexical divergence,68
+f06f3a2ed5311c65,5,Subtle intrinsic contradiction,69
+8129cdb525d9e618,9,Numeral / Unicode normalisation variant,70
+2eca03cdaabdf72e,6,Paraphrase / lexical divergence,71
+4caa90f43cb6fcdd,5,Subtle intrinsic contradiction,72
+5a055a9e14fc86ef,5,Subtle intrinsic contradiction,73
+1c0999023cd1e2b7,5,Subtle intrinsic contradiction,74
+d6024eac60ea7580,10,Legal reference mismatch,75
+a15eb0c362dd41bf,5,Subtle intrinsic contradiction,76
+c53a00377f1f6bfb,6,Paraphrase / lexical divergence,77
+297f825225b5a6e2,2,Entity / term substitution,78
+48723826509d377f,8,Code-switch / script mismatch,79
+a7c0a2b1d7eff9e4,5,Subtle intrinsic contradiction,80
+daa70dcbabe8893b,6,Paraphrase / lexical divergence,81
+aa538e665c98afb5,6,Paraphrase / lexical divergence,82
+3021f8e9a542237e,4,Unsupported addition (extrinsic),83
+2c94094d8714d969,2,Entity / term substitution,84
+7f396b5f11eb40a6,1,Numeric / date / quantity mismatch,85
+9d01e10db5145dca,5,Subtle intrinsic contradiction,86
+2008215f8e6dff2d,1,Numeric / date / quantity mismatch,87
+929057a392eefb1c,1,Numeric / date / quantity mismatch,88
+83520b717e1c97fc,2,Entity / term substitution,89
+91ef5c7afbd79693,6,Paraphrase / lexical divergence,90
+d510f8b6de6a1948,6,Paraphrase / lexical divergence,91
+1b00438eefdd99ff,6,Paraphrase / lexical divergence,92
+deadd82e6b00fd56,6,Paraphrase / lexical divergence,93
+d3cbd2ec8e32fb47,6,Paraphrase / lexical divergence,94
+9b094edd6d9d6cbb,1,Numeric / date / quantity mismatch,95
+36c878fbc814719a,5,Subtle intrinsic contradiction,96
+d56427d29050a480,6,Paraphrase / lexical divergence,97
+1aae55af28dd2bcb,1,Numeric / date / quantity mismatch,98
+a9811da0180b7f77,6,Paraphrase / lexical divergence,99
+fc4228269bad4ad6,5,Subtle intrinsic contradiction,100

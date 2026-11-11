@@ -1,0 +1,13 @@
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Model & Macro-F1 & Latency (ms/ex) & Peak VRAM (MB) & $n$ \\
+\midrule
+M0 lexical & 0.653 & 0.09 & -- (CPU) & 1,228 \\
+M1 English LettuceDetect & 0.533 & 12.09 & 588 & 1,228 \\
+M2 EuroBERT LettuceDetect & 0.508 & 7.10 & 675 & 1,228 \\
+M3 XLM-R (collapsed) & 0.502 & 1.43 & 653 & 1,228 \\
+M4 BanglaBERT-large & 0.832 & 8.75 & 784 & 1,228 \\
+M5 XLM-R (MIL) & 0.730 & 4.13 & 575 & 1,228 \\
+M6 Qwen2.5-3B, 4-bit (zero-shot) & 0.705 & 106.45 & 2,902 & 600 \\
+\bottomrule
+\end{tabular}

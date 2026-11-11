@@ -1,0 +1,42 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{External generalization (frozen weights and thresholds), pooling and query-conditioning ablations, and accuracy-vs-efficiency comparison. M6 is evaluated on a stratified subset.}
+\label{tab:table5_external_generalization_and_ablations}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+Section & Setting & Macro-F1 & Olikbochon Macro-F1 & $\Delta$ Macro-F1 (Olik − BangHallu) & AUROC & Latency ms/ex & Peak VRAM MB & N eval \\
+\midrule
+External generalization (Olikbochon) & M0 Lexical & \underline{0.653 $\pm$ 0.000} & 0.658 $\pm$ 0.000 & 0.005 & \underline{0.629 $\pm$ 0.000} & -- & -- & -- \\
+External generalization (Olikbochon) & M1 English LettuceDetect & 0.533 $\pm$ 0.000 & 0.542 $\pm$ 0.000 & 0.008 & 0.602 $\pm$ 0.000 & -- & -- & -- \\
+External generalization (Olikbochon) & M2 released EuroBERT-210M LettuceDetect (Chinese RAGTruth fine-tune) & 0.508 $\pm$ 0.000 & 0.561 $\pm$ 0.000 & 0.053 & 0.598 $\pm$ 0.000 & -- & -- & -- \\
+External generalization (Olikbochon) & M3 XLM-R-base (100\%) & 0.502 $\pm$ 0.054 & 0.496 $\pm$ 0.057 & -0.007 & 0.535 $\pm$ 0.016 & -- & -- & -- \\
+External generalization (Olikbochon) & M4 BanglaBERT-large (100\%) & \textbf{0.832 $\pm$ 0.007} & 0.698 $\pm$ 0.032 & -0.133 & \textbf{0.782 $\pm$ 0.013} & -- & -- & -- \\
+\midrule
+Pooling rule & M0 / max\_i p\_i & 0.655 & -- & -- & 0.647 & -- & -- & -- \\
+Pooling rule & M0 / top3\_mean & 0.655 & -- & -- & 0.605 & -- & -- & -- \\
+Pooling rule & M0 / top5\_mean & 0.655 & -- & -- & 0.601 & -- & -- & -- \\
+Pooling rule & M1 / max\_i p\_i & 0.533 & -- & -- & 0.546 & -- & -- & -- \\
+Pooling rule & M1 / top3\_mean & 0.534 & -- & -- & 0.547 & -- & -- & -- \\
+Pooling rule & M1 / top5\_mean & 0.532 & -- & -- & 0.547 & -- & -- & -- \\
+Pooling rule & M2 / max\_i p\_i & 0.508 & -- & -- & 0.512 & -- & -- & -- \\
+Pooling rule & M2 / top3\_mean & 0.507 & -- & -- & 0.517 & -- & -- & -- \\
+Pooling rule & M2 / top5\_mean & 0.511 & -- & -- & 0.518 & -- & -- & -- \\
+Pooling rule & M5 / max\_i p\_i & \textbf{0.730} & -- & -- & \textbf{0.837} & -- & -- & -- \\
+Pooling rule & M5 / top3\_mean & \underline{0.726} & -- & -- & \underline{0.769} & -- & -- & -- \\
+Pooling rule & M5 / top5\_mean & 0.720 & -- & -- & 0.745 & -- & -- & -- \\
+\midrule
+Query conditioning & M4: question + context + answer (8-bit AdamW) & \textbf{0.825} & -- & -- & \textbf{0.925} & -- & -- & -- \\
+Query conditioning & M4: context + answer (question dropped; 8-bit AdamW) & \underline{0.735} & -- & -- & \underline{0.854} & -- & -- & -- \\
+\midrule
+Accuracy vs efficiency (RQ6) & M0 Lexical & 0.653 & -- & -- & -- & \textbf{0.087} & \textbf{8.125} & 1228.000 \\
+Accuracy vs efficiency (RQ6) & M1 English LettuceDetect & 0.533 & -- & -- & -- & 12.093 & 587.880 & 1228.000 \\
+Accuracy vs efficiency (RQ6) & M2 released EuroBERT-210M LettuceDetect (Chinese RAGTruth fine-tune) & 0.508 & -- & -- & -- & 7.102 & 674.521 & 1228.000 \\
+Accuracy vs efficiency (RQ6) & M3 XLM-R-base & 0.502 & -- & -- & -- & \underline{1.428} & 652.979 & 1228.000 \\
+Accuracy vs efficiency (RQ6) & M4 BanglaBERT-large & \textbf{0.832} & -- & -- & -- & 8.752 & 784.401 & 1228.000 \\
+Accuracy vs efficiency (RQ6) & M5 MIL token detector & \underline{0.730} & -- & -- & -- & 4.129 & \underline{575.198} & 1228.000 \\
+Accuracy vs efficiency (RQ6) & M6 3B 4-bit LLM verifier (subset) & 0.705 & -- & -- & -- & 106.448 & 2902.250 & 600.000 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

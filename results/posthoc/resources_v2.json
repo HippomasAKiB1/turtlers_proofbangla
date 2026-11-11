@@ -1,0 +1,20 @@
+{
+ "M4-100pct-answeronly": {
+  "peak_vram_mb": 675.32421875
+ },
+ "M4-100pct-nocontext": {
+  "peak_vram_mb": 681.7216796875
+ },
+ "M3-100pct-diag-lr1e-5": {
+  "peak_vram_mb": 652.97900390625
+ },
+ "M3-100pct-diag-lr2e-5": {
+  "peak_vram_mb": 652.97900390625
+ },
+ "M3-100pct-diag-lr5e-5": {
+  "peak_vram_mb": 652.97900390625
+ },
+ "M3-100pct-diag-lr2e-5-norm": {
+  "peak_vram_mb": 652.97900390625
+ }
+}

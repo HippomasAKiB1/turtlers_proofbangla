@@ -1,0 +1,16 @@
+\begin{tabular}{@{}>{\raggedright}p{2.5cm}>{\raggedright}p{2.7cm}>{\raggedright}p{2.2cm}>{\raggedright}p{2.2cm}>{\raggedright\arraybackslash}p{2.9cm}@{}}
+\toprule
+RQ & Data & Detectors & Primary metric & Test / interval \tabularnewline
+\midrule
+RQ1 transfer & BangHallu test; native test sets & M0, M1, M2 & Macro-F1, AUROC & bootstrap CI; paired bootstrap + McNemar (Holm) \tabularnewline
+RQ1 fertility & RAGTruth, BangHallu text & four tokenizers & tokens per word, truncation rate & descriptive \tabularnewline
+RQ2 adaptation & BangHallu, 0/10/25/100\% of train & M3, M4, M5 & Macro-F1 (3 seeds) & bootstrap CI; paired bootstrap + McNemar (Holm) \tabularnewline
+RQ2 M3 diagnostic (post hoc) & BangHallu & M3, five recipes & train loss, dev AUROC & descriptive \tabularnewline
+RQ3 context split (post hoc) & BangHallu test, $T_c$ / $T_\emptyset$ & M0--M5 & Macro-F1 per subset & bootstrap CI; paired bootstrap contrasts \tabularnewline
+RQ3 input ablation (post hoc) & BangHallu & M4 on reduced input & Macro-F1 per subset & paired bootstrap contrasts \tabularnewline
+RQ4 external & Olikbochon (all / clean, post hoc) & M0, M1, M2, M4 & Macro-F1, AUROC & bootstrap CI; paired bootstrap \tabularnewline
+RQ4 legal & BanglaGovRAG + BD Legal QA & M0--M4 & Macro-F1, recall, FAR & mean $\pm$ SD over seeds \tabularnewline
+RQ5 calibration & BangHallu dev / test & M4, M5 (temperature scaling post hoc) & ECE, NLL, Brier, AURC & mean over seeds \tabularnewline
+RQ5 cost & BangHallu test & M0--M6 & ms per example, peak memory & descriptive \tabularnewline
+\bottomrule
+\end{tabular}

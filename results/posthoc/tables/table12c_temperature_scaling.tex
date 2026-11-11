@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Post-hoc temperature scaling (T fitted on BangHallu dev by minimum NLL). tau* is mapped through the same monotone transform, so Macro-F1 is unchanged by construction; ECE, NLL and Brier are on test.}
+\label{tab:table12c_temperature_scaling}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccccccc}
+\toprule
+Model & Seed & T fitted & ECE before & ECE after & NLL before & NLL after & Brier before & Brier after & F1 before & F1 after & F1 @ fixed 0.5 (no tuning) & tau* (dev-tuned) \\
+\midrule
+M4 BanglaBERT-large & 42 & 2.466 & 0.121 & 0.085 & 0.500 & 0.365 & 0.137 & 0.115 & 0.833 & 0.833 & 0.823 & 0.175 \\
+M4 BanglaBERT-large & 1337 & 2.831 & 0.120 & 0.089 & 0.537 & 0.356 & 0.135 & 0.111 & 0.838 & 0.838 & 0.837 & 0.575 \\
+M4 BanglaBERT-large & 2026 & 2.319 & 0.109 & 0.082 & 0.494 & 0.367 & 0.135 & 0.116 & 0.824 & 0.824 & 0.829 & 0.792 \\
+M5 XLM-R MIL & 42 & 1.683 & 0.064 & \underline{0.040} & 0.509 & 0.469 & 0.165 & 0.159 & 0.735 & 0.735 & 0.737 & 0.499 \\
+M5 XLM-R MIL & 1337 & 1.483 & 0.055 & \textbf{0.035} & 0.492 & 0.475 & 0.165 & 0.162 & 0.721 & 0.721 & 0.719 & 0.468 \\
+M5 XLM-R MIL & 2026 & 1.809 & 0.095 & 0.040 & 0.534 & 0.481 & 0.174 & 0.164 & 0.733 & 0.733 & 0.715 & 0.449 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

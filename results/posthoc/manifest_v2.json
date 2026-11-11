@@ -1,0 +1,25 @@
+{
+ "created": "2026-10-25 04:11:25",
+ "python": "3.11.17",
+ "torch": "2.14.1+cu126",
+ "gpu": "NVIDIA GeForce RTX 4060",
+ "new_tables": [
+  "table10_grounding_ablation.csv",
+  "table11_m3_diagnostic.csv",
+  "table12a2_olikbochon_m4_vs_lexical.csv",
+  "table12a_olikbochon_leak_filtered.csv",
+  "table12b2_transfer_drop_decomposition.csv",
+  "table12b_context_split.csv",
+  "table12c_temperature_scaling.csv",
+  "table13_error_taxonomy_banghallu_only.csv",
+  "table13b_error_rate_by_context.csv",
+  "table14_split_overlap.csv",
+  "table15_key_contrasts.csv"
+ ],
+ "new_figures": [
+  "figX1_training_dynamics_xlmr_vs_banglabert.png",
+  "figX2_context_split.png"
+ ],
+ "failures": [],
+ "original_files_changed": []
+}

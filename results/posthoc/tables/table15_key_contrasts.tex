@@ -1,0 +1,32 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Paired contrasts between the main models on BangHallu test (seed-averaged Macro-F1 differences, 1000 paired bootstrap resamples).}
+\label{tab:table15_key_contrasts}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Contrast & Subset & N & $\Delta$ Macro-F1 & 95\% paired-bootstrap CI & CI excludes 0 \\
+\midrule
+M4 reference − M5 (XLM-R MIL) & all test rows & 1228 & 0.102 & [0.080, 0.124] & yes \\
+M4 reference − M5 (XLM-R MIL) & with context & 718 & 0.066 & [0.046, 0.089] & yes \\
+M4 reference − M5 (XLM-R MIL) & without context & 510 & 0.153 & [0.111, 0.193] & yes \\
+\midrule
+M4 reference − M0 (lexical) & all test rows & 1228 & 0.179 & [0.151, 0.209] & yes \\
+M4 reference − M0 (lexical) & with context & 718 & 0.141 & [0.112, 0.174] & yes \\
+M4 reference − M0 (lexical) & without context & 510 & 0.372 & [0.332, 0.409] & yes \\
+\midrule
+M5 − M0 (lexical) & all test rows & 1228 & 0.077 & [0.052, 0.103] & yes \\
+M5 − M0 (lexical) & with context & 718 & 0.075 & [0.048, 0.106] & yes \\
+M5 − M0 (lexical) & without context & 510 & 0.218 & [0.181, 0.253] & yes \\
+\midrule
+M4 reference − M4 question+answer (no context) & all test rows & 1228 & 0.129 & [0.109, 0.150] & yes \\
+M4 reference − M4 question+answer (no context) & with context & 718 & 0.217 & [0.188, 0.245] & yes \\
+M4 reference − M4 question+answer (no context) & without context & 510 & 0.005 & [-0.019, 0.031] & no \\
+\midrule
+M4 reference − M4 answer-only & all test rows & 1228 & 0.260 & [0.234, 0.285] & yes \\
+M4 reference − M4 answer-only & with context & 718 & 0.313 & [0.284, 0.345] & yes \\
+M4 reference − M4 answer-only & without context & 510 & 0.187 & [0.144, 0.230] & yes \\
+\bottomrule
+\end{tabular}}
+\end{table}

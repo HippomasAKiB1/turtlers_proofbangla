@@ -1,0 +1,83 @@
+{
+ "M1_source": {
+  "peak_vram_mb": 434.6728515625
+ },
+ "M2_source": {
+  "peak_vram_mb": 594.77490234375
+ },
+ "M0": {
+  "peak_vram_mb": 8.125
+ },
+ "M1_bn": {
+  "peak_vram_mb": 587.8798828125
+ },
+ "M2_bn": {
+  "peak_vram_mb": 674.52099609375
+ },
+ "M3-0pct": {
+  "peak_vram_mb": 645.10400390625
+ },
+ "M3-10pct": {
+  "peak_vram_mb": 652.97900390625
+ },
+ "M3-25pct": {
+  "peak_vram_mb": 652.97900390625
+ },
+ "M3-100pct": {
+  "peak_vram_mb": 652.97900390625
+ },
+ "M4-0pct": {
+  "peak_vram_mb": 5325.9521484375
+ },
+ "M4-10pct": {
+  "peak_vram_mb": 784.40087890625
+ },
+ "M4-25pct": {
+  "peak_vram_mb": 784.40087890625
+ },
+ "M4-100pct": {
+  "peak_vram_mb": 784.40087890625
+ },
+ "M0_olik": {
+  "peak_vram_mb": 16.25
+ },
+ "M1_bn_olik": {
+  "peak_vram_mb": 458.46630859375
+ },
+ "M2_bn_olik": {
+  "peak_vram_mb": 554.4169921875
+ },
+ "M3-100pct_olik": {
+  "peak_vram_mb": 652.97900390625
+ },
+ "M4-100pct_olik": {
+  "peak_vram_mb": 1007.521484375
+ },
+ "M5": {
+  "peak_vram_mb": 575.19775390625
+ },
+ "M4-100pct-8bit": {
+  "peak_vram_mb": 1081.8935546875
+ },
+ "M4-100pct-noq-8bit": {
+  "peak_vram_mb": 1055.0947265625
+ },
+ "M6": {
+  "peak_vram_mb": 2902.25
+ },
+ "M0_legal": {
+  "peak_vram_mb": 16.2509765625
+ },
+ "M1_legal": {
+  "peak_vram_mb": 616.33837890625
+ },
+ "M2_legal": {
+  "peak_vram_mb": 645.7548828125
+ },
+ "M3-100pct_legal": {
+  "peak_vram_mb": 652.97998046875
+ },
+ "M4-100pct_legal": {
+  "peak_vram_mb": 1163.81494140625
+ }
+}

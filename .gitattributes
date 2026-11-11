@@ -1,0 +1,5 @@
+# Store data files byte-for-byte (no line-ending conversion) so their SHA-256 hashes
+# match results/original_run/experiment_manifest.json on every platform.
+predictions/** -text
+results/** -text
+annotation/*.csv -text

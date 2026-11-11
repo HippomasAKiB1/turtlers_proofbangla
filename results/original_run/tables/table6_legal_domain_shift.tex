@@ -1,0 +1,94 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Legal domain shift (BanglaGovRAG + BD Legal QA). Gold-evidence vs retrieved-evidence (BM25 + multilingual E5, RRF), language subsets, refusal probe, and a secondary synthetic perturbation stress test. Negatives are synthetic perturbations of reference answers unless a dataset provides native labels.}
+\label{tab:table6_legal_domain_shift}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccccccccccc}
+\toprule
+Section & Model & Condition & Language & N & Recall@1 & Recall@5 & MRR & Macro-F1 & Hallucination recall & False-alarm rate & AUROC & Refusal acc (detector flags unsupported) & Perturbation \\
+\midrule
+Retrieval (BM25 + E5, RRF) & Hybrid retriever & Retrieved & All & 1607 & 0.228 & 0.409 & 0.318 & -- & -- & -- & -- & -- & -- \\
+Retrieval (BM25 + E5, RRF) & Hybrid retriever & Retrieved & BN & 971 & 0.185 & 0.341 & 0.266 & -- & -- & -- & -- & -- & -- \\
+Retrieval (BM25 + E5, RRF) & Hybrid retriever & Retrieved & CS & 1 & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & -- & -- & -- & -- & -- & -- \\
+Retrieval (BM25 + E5, RRF) & Hybrid retriever & Retrieved & EN & 635 & \underline{0.291} & \underline{0.512} & \underline{0.397} & -- & -- & -- & -- & -- & -- \\
+\midrule
+Detection (labels: reference=0 / synthetic perturbation=1) & M0 & Gold evidence & All & 1364 & -- & -- & -- & 0.452 $\pm$ 0.000 & 0.918 $\pm$ 0.000 & 0.852 $\pm$ 0.000 & 0.472 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M0 & Gold evidence & BN & 840 & -- & -- & -- & 0.475 $\pm$ 0.000 & 0.936 $\pm$ 0.000 & 0.831 $\pm$ 0.000 & 0.484 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M0 & Gold evidence & CS & 2 & -- & -- & -- & \textbf{1.000 $\pm$ 0.000} & \textbf{1.000 $\pm$ 0.000} & \textbf{0.000 $\pm$ 0.000} & \textbf{1.000 $\pm$ 0.000} & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M0 & Gold evidence & EN & 522 & -- & -- & -- & 0.411 $\pm$ 0.000 & 0.889 $\pm$ 0.000 & 0.889 $\pm$ 0.000 & 0.459 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M0 & Retrieved evidence & All & 1364 & -- & -- & -- & 0.387 $\pm$ 0.000 & 0.908 $\pm$ 0.000 & 0.922 $\pm$ 0.000 & 0.464 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M0 & Retrieved evidence & BN & 840 & -- & -- & -- & 0.377 $\pm$ 0.000 & \underline{0.983 $\pm$ 0.000} & 0.955 $\pm$ 0.000 & 0.477 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M0 & Retrieved evidence & CS & 2 & -- & -- & -- & \textbf{1.000 $\pm$ 0.000} & \textbf{1.000 $\pm$ 0.000} & \textbf{0.000 $\pm$ 0.000} & \textbf{1.000 $\pm$ 0.000} & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M0 & Retrieved evidence & EN & 522 & -- & -- & -- & 0.390 $\pm$ 0.000 & 0.785 $\pm$ 0.000 & 0.874 $\pm$ 0.000 & 0.449 $\pm$ 0.000 & -- & -- \\
+\midrule
+Out-of-corpus refusal probe & M0 & OOC evidence & All & 682 & -- & -- & -- & -- & -- & -- & -- & 0.988 $\pm$ 0.000 & -- \\
+\midrule
+Detection (labels: reference=0 / synthetic perturbation=1) & M1 & Gold evidence & All & 1364 & -- & -- & -- & 0.370 $\pm$ 0.000 & 0.925 $\pm$ 0.000 & 0.946 $\pm$ 0.000 & 0.595 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M1 & Gold evidence & BN & 840 & -- & -- & -- & 0.372 $\pm$ 0.000 & 0.890 $\pm$ 0.000 & 0.933 $\pm$ 0.000 & 0.561 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M1 & Gold evidence & CS & 2 & -- & -- & -- & 0.333 $\pm$ 0.000 & \textbf{1.000 $\pm$ 0.000} & 1.000 $\pm$ 0.000 & \textbf{1.000 $\pm$ 0.000} & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M1 & Gold evidence & EN & 522 & -- & -- & -- & 0.366 $\pm$ 0.000 & 0.981 $\pm$ 0.000 & 0.966 $\pm$ 0.000 & 0.662 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M1 & Retrieved evidence & All & 1364 & -- & -- & -- & 0.408 $\pm$ 0.000 & 0.815 $\pm$ 0.000 & 0.864 $\pm$ 0.000 & 0.574 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M1 & Retrieved evidence & BN & 840 & -- & -- & -- & 0.421 $\pm$ 0.000 & 0.733 $\pm$ 0.000 & 0.807 $\pm$ 0.000 & 0.556 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M1 & Retrieved evidence & CS & 2 & -- & -- & -- & \textbf{1.000 $\pm$ 0.000} & \textbf{1.000 $\pm$ 0.000} & \textbf{0.000 $\pm$ 0.000} & \textbf{1.000 $\pm$ 0.000} & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M1 & Retrieved evidence & EN & 522 & -- & -- & -- & 0.364 $\pm$ 0.000 & 0.946 $\pm$ 0.000 & 0.958 $\pm$ 0.000 & 0.609 $\pm$ 0.000 & -- & -- \\
+\midrule
+Out-of-corpus refusal probe & M1 & OOC evidence & All & 682 & -- & -- & -- & -- & -- & -- & -- & 0.887 $\pm$ 0.000 & -- \\
+\midrule
+Detection (labels: reference=0 / synthetic perturbation=1) & M2 & Gold evidence & All & 1364 & -- & -- & -- & 0.546 $\pm$ 0.000 & 0.330 $\pm$ 0.000 & 0.185 $\pm$ 0.000 & 0.555 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M2 & Gold evidence & BN & 840 & -- & -- & -- & 0.568 $\pm$ 0.000 & 0.326 $\pm$ 0.000 & 0.126 $\pm$ 0.000 & 0.574 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M2 & Gold evidence & CS & 2 & -- & -- & -- & 0.333 $\pm$ 0.000 & 0.000 $\pm$ 0.000 & \textbf{0.000 $\pm$ 0.000} & \textbf{1.000 $\pm$ 0.000} & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M2 & Gold evidence & EN & 522 & -- & -- & -- & 0.511 $\pm$ 0.000 & 0.337 $\pm$ 0.000 & 0.280 $\pm$ 0.000 & 0.523 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M2 & Retrieved evidence & All & 1364 & -- & -- & -- & 0.597 $\pm$ 0.000 & 0.474 $\pm$ 0.000 & 0.267 $\pm$ 0.000 & 0.562 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M2 & Retrieved evidence & BN & 840 & -- & -- & -- & 0.643 $\pm$ 0.000 & 0.493 $\pm$ 0.000 & 0.188 $\pm$ 0.000 & 0.582 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M2 & Retrieved evidence & CS & 2 & -- & -- & -- & 0.333 $\pm$ 0.000 & 0.000 $\pm$ 0.000 & \textbf{0.000 $\pm$ 0.000} & \textbf{1.000 $\pm$ 0.000} & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M2 & Retrieved evidence & EN & 522 & -- & -- & -- & 0.522 $\pm$ 0.000 & 0.444 $\pm$ 0.000 & 0.395 $\pm$ 0.000 & 0.525 $\pm$ 0.000 & -- & -- \\
+\midrule
+Out-of-corpus refusal probe & M2 & OOC evidence & All & 682 & -- & -- & -- & -- & -- & -- & -- & 0.260 $\pm$ 0.000 & -- \\
+\midrule
+Detection (labels: reference=0 / synthetic perturbation=1) & M3 & Gold evidence & All & 1364 & -- & -- & -- & 0.492 $\pm$ 0.015 & 0.540 $\pm$ 0.146 & 0.538 $\pm$ 0.161 & 0.505 $\pm$ 0.007 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M3 & Gold evidence & BN & 840 & -- & -- & -- & 0.476 $\pm$ 0.030 & 0.644 $\pm$ 0.146 & 0.652 $\pm$ 0.154 & 0.499 $\pm$ 0.008 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M3 & Gold evidence & CS & 2 & -- & -- & -- & 0.333 $\pm$ 0.000 & 0.333 $\pm$ 0.577 & 0.333 $\pm$ 0.577 & 0.667 $\pm$ 0.577 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M3 & Gold evidence & EN & 522 & -- & -- & -- & 0.446 $\pm$ 0.038 & 0.373 $\pm$ 0.367 & 0.355 $\pm$ 0.379 & 0.515 $\pm$ 0.018 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M3 & Retrieved evidence & All & 1364 & -- & -- & -- & 0.453 $\pm$ 0.042 & 0.278 $\pm$ 0.197 & 0.287 $\pm$ 0.202 & 0.495 $\pm$ 0.002 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M3 & Retrieved evidence & BN & 840 & -- & -- & -- & 0.430 $\pm$ 0.053 & 0.402 $\pm$ 0.368 & 0.421 $\pm$ 0.376 & 0.491 $\pm$ 0.003 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M3 & Retrieved evidence & CS & 2 & -- & -- & -- & 0.333 $\pm$ 0.000 & 0.333 $\pm$ 0.577 & 0.333 $\pm$ 0.577 & 0.667 $\pm$ 0.577 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M3 & Retrieved evidence & EN & 522 & -- & -- & -- & 0.385 $\pm$ 0.055 & 0.078 $\pm$ 0.096 & \underline{0.072 $\pm$ 0.095} & 0.496 $\pm$ 0.006 & -- & -- \\
+\midrule
+Out-of-corpus refusal probe & M3 & OOC evidence & All & 682 & -- & -- & -- & -- & -- & -- & -- & 0.288 $\pm$ 0.198 & -- \\
+\midrule
+Detection (labels: reference=0 / synthetic perturbation=1) & M4 & Gold evidence & All & 1364 & -- & -- & -- & 0.666 $\pm$ 0.140 & 0.823 $\pm$ 0.064 & 0.462 $\pm$ 0.247 & 0.797 $\pm$ 0.085 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M4 & Gold evidence & BN & 840 & -- & -- & -- & 0.657 $\pm$ 0.129 & 0.825 $\pm$ 0.075 & 0.479 $\pm$ 0.239 & \underline{0.798 $\pm$ 0.073} & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M4 & Gold evidence & CS & 2 & -- & -- & -- & 0.333 $\pm$ 0.000 & 0.000 $\pm$ 0.000 & \textbf{0.000 $\pm$ 0.000} & 0.000 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M4 & Gold evidence & EN & 522 & -- & -- & -- & \underline{0.680 $\pm$ 0.158} & 0.822 $\pm$ 0.056 & 0.437 $\pm$ 0.261 & 0.797 $\pm$ 0.112 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M4 & Retrieved evidence & All & 1364 & -- & -- & -- & 0.571 $\pm$ 0.067 & 0.669 $\pm$ 0.093 & 0.511 $\pm$ 0.160 & 0.640 $\pm$ 0.047 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M4 & Retrieved evidence & BN & 840 & -- & -- & -- & 0.542 $\pm$ 0.062 & 0.704 $\pm$ 0.103 & 0.591 $\pm$ 0.129 & 0.633 $\pm$ 0.044 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M4 & Retrieved evidence & CS & 2 & -- & -- & -- & 0.333 $\pm$ 0.000 & 0.000 $\pm$ 0.000 & \textbf{0.000 $\pm$ 0.000} & 0.000 $\pm$ 0.000 & -- & -- \\
+Detection (labels: reference=0 / synthetic perturbation=1) & M4 & Retrieved evidence & EN & 522 & -- & -- & -- & 0.611 $\pm$ 0.080 & 0.616 $\pm$ 0.077 & 0.383 $\pm$ 0.212 & 0.658 $\pm$ 0.060 & -- & -- \\
+\midrule
+Out-of-corpus refusal probe & M4 & OOC evidence & All & 682 & -- & -- & -- & -- & -- & -- & -- & 0.539 $\pm$ 0.194 & -- \\
+Out-of-corpus refusal probe & Retriever score threshold & theta=0.844 & All & 810 & -- & -- & -- & -- & -- & -- & -- & OOC refuse 0.832 / in-corpus answer 0.268 / balanced 0.550 & -- \\
+\midrule
+Synthetic perturbation stress test (SYNTHETIC) & M0 & Gold evidence & All & 566 & -- & -- & -- & -- & 0.956 $\pm$ 0.000 & -- & -- & -- & entity\_swap \\
+Synthetic perturbation stress test (SYNTHETIC) & M0 & Gold evidence & All & 40 & -- & -- & -- & -- & 0.250 $\pm$ 0.000 & -- & -- & -- & negation \\
+Synthetic perturbation stress test (SYNTHETIC) & M0 & Gold evidence & All & 9 & -- & -- & -- & -- & 0.889 $\pm$ 0.000 & -- & -- & -- & number \\
+Synthetic perturbation stress test (SYNTHETIC) & M0 & Gold evidence & All & 67 & -- & -- & -- & -- & \textbf{1.000 $\pm$ 0.000} & -- & -- & -- & unsupported\_addition \\
+Synthetic perturbation stress test (SYNTHETIC) & M1 & Gold evidence & All & 566 & -- & -- & -- & -- & 0.924 $\pm$ 0.000 & -- & -- & -- & entity\_swap \\
+Synthetic perturbation stress test (SYNTHETIC) & M1 & Gold evidence & All & 40 & -- & -- & -- & -- & 0.900 $\pm$ 0.000 & -- & -- & -- & negation \\
+Synthetic perturbation stress test (SYNTHETIC) & M1 & Gold evidence & All & 9 & -- & -- & -- & -- & 0.667 $\pm$ 0.000 & -- & -- & -- & number \\
+Synthetic perturbation stress test (SYNTHETIC) & M1 & Gold evidence & All & 67 & -- & -- & -- & -- & \underline{0.985 $\pm$ 0.000} & -- & -- & -- & unsupported\_addition \\
+Synthetic perturbation stress test (SYNTHETIC) & M2 & Gold evidence & All & 566 & -- & -- & -- & -- & 0.323 $\pm$ 0.000 & -- & -- & -- & entity\_swap \\
+Synthetic perturbation stress test (SYNTHETIC) & M2 & Gold evidence & All & 40 & -- & -- & -- & -- & 0.125 $\pm$ 0.000 & -- & -- & -- & negation \\
+Synthetic perturbation stress test (SYNTHETIC) & M2 & Gold evidence & All & 9 & -- & -- & -- & -- & 0.000 $\pm$ 0.000 & -- & -- & -- & number \\
+Synthetic perturbation stress test (SYNTHETIC) & M2 & Gold evidence & All & 67 & -- & -- & -- & -- & 0.552 $\pm$ 0.000 & -- & -- & -- & unsupported\_addition \\
+Synthetic perturbation stress test (SYNTHETIC) & M3 & Gold evidence & All & 566 & -- & -- & -- & -- & 0.565 $\pm$ 0.174 & -- & -- & -- & entity\_swap \\
+Synthetic perturbation stress test (SYNTHETIC) & M3 & Gold evidence & All & 40 & -- & -- & -- & -- & 0.142 $\pm$ 0.245 & -- & -- & -- & negation \\
+Synthetic perturbation stress test (SYNTHETIC) & M3 & Gold evidence & All & 9 & -- & -- & -- & -- & 0.222 $\pm$ 0.385 & -- & -- & -- & number \\
+Synthetic perturbation stress test (SYNTHETIC) & M3 & Gold evidence & All & 67 & -- & -- & -- & -- & 0.607 $\pm$ 0.060 & -- & -- & -- & unsupported\_addition \\
+Synthetic perturbation stress test (SYNTHETIC) & M4 & Gold evidence & All & 566 & -- & -- & -- & -- & 0.870 $\pm$ 0.041 & -- & -- & -- & entity\_swap \\
+Synthetic perturbation stress test (SYNTHETIC) & M4 & Gold evidence & All & 40 & -- & -- & -- & -- & 0.542 $\pm$ 0.151 & -- & -- & -- & negation \\
+Synthetic perturbation stress test (SYNTHETIC) & M4 & Gold evidence & All & 9 & -- & -- & -- & -- & 0.852 $\pm$ 0.064 & -- & -- & -- & number \\
+Synthetic perturbation stress test (SYNTHETIC) & M4 & Gold evidence & All & 67 & -- & -- & -- & -- & 0.582 $\pm$ 0.321 & -- & -- & -- & unsupported\_addition \\
+\bottomrule
+\end{tabular}}
+\end{table*}

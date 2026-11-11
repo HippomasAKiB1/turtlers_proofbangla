@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Do Hallucination Detectors Read the Context? Transfer, Adaptation, and Grounding in Bengali Retrieval-Augmented Generation"
+type: software
+authors:
+  - family-names: "Pyil"
+    given-names: "Akib Hasan"
+    affiliation: "American International University-Bangladesh"
+  - family-names: "Rhythm"
+    given-names: "Nazat E Rose"
+    affiliation: "American International University-Bangladesh"
+  - family-names: "Nishat"
+    given-names: "Most. Sumaiya Habiba"
+    affiliation: "American International University-Bangladesh"
+  - family-names: "Shafi"
+    given-names: "S M Abdullah"
+    affiliation: "American International University-Bangladesh"
+  - family-names: "Islam"
+    given-names: "Md. Ariful"
+    affiliation: "American International University-Bangladesh"
+repository-code: "https://github.com/HippomasAKiB1/Turtlers_Thesis_Summer25-26"
+license: MIT
+# Pending: licence confirmation, DOI (after the first archived release).

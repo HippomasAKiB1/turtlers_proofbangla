@@ -1,0 +1,12 @@
+{
+ "M4-100pct-answeronly_seed42": 0.38809148937463767,
+ "M4-100pct-answeronly_seed1337": 0.4653461837768555,
+ "M4-100pct-answeronly_seed2026": 0.3852937027812004,
+ "M4-100pct-nocontext_seed42": 0.4765479937195778,
+ "M4-100pct-nocontext_seed1337": 0.44442371577024464,
+ "M4-100pct-nocontext_seed2026": 0.4188600683212281,
+ "M3-100pct-diag-lr1e-5_seed42": 0.50054931640625,
+ "M3-100pct-diag-lr2e-5_seed42": 0.48483744263648987,
+ "M3-100pct-diag-lr5e-5_seed42": 0.4393864870071411,
+ "M3-100pct-diag-lr2e-5-norm_seed42": 0.4965820908546448
+}

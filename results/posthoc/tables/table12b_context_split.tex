@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{BangHallu test split by availability of a context passage (all models, including the new ablation runs). Each model uses its own frozen tau*; CIs are seed-averaged paired bootstrap (1000 resamples).}
+\label{tab:table12b_context_split}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccccc}
+\toprule
+Model & Input & Seeds & F1 all & F1 with context (n=718) & CI with & AUROC with & F1 without context (n=510) & CI without & AUROC without & $\Delta$ F1 (with − without) \\
+\midrule
+M0 lexical & Q/C/A (rule-based) & 1 & 0.653 $\pm$ 0.000 & 0.779 $\pm$ 0.000 & [0.745, 0.808] & 0.759 & 0.333 $\pm$ 0.000 & [0.314, 0.353] & 0.500 & 0.446 \\
+M1 released EN & Q+C+A, zero-shot & 1 & 0.533 $\pm$ 0.000 & 0.575 $\pm$ 0.000 & [0.539, 0.612] & 0.604 & 0.333 $\pm$ 0.000 & [0.314, 0.353] & 0.544 & 0.242 \\
+M2 released EuroBERT-CN & Q+C+A, zero-shot & 1 & 0.508 $\pm$ 0.000 & 0.491 $\pm$ 0.000 & [0.455, 0.526] & 0.520 & 0.390 $\pm$ 0.000 & [0.354, 0.428] & 0.501 & 0.101 \\
+M3 XLM-R seq (original, collapsed) & Q+C+A & 3 & 0.502 $\pm$ 0.054 & 0.486 $\pm$ 0.029 & [0.463, 0.507] & 0.544 & 0.432 $\pm$ 0.066 & [0.404, 0.460] & 0.513 & 0.054 \\
+M4 BanglaBERT-large (reference) & Q+C+A & 3 & 0.832 $\pm$ 0.007 & 0.921 $\pm$ 0.006 & [0.902, 0.936] & 0.983 & 0.705 $\pm$ 0.015 & [0.672, 0.736] & 0.806 & 0.216 \\
+M5 XLM-R MIL token detector & Q+C+A & 3 & 0.730 $\pm$ 0.008 & 0.854 $\pm$ 0.013 & [0.831, 0.877] & 0.939 & 0.552 $\pm$ 0.033 & [0.519, 0.582] & 0.576 & 0.302 \\
+M4 8-bit, with question (seed 42) & Q+C+A & 1 & 0.825 $\pm$ 0.000 & 0.921 $\pm$ 0.000 & [0.900, 0.941] & 0.980 & 0.686 $\pm$ 0.000 & [0.645, 0.725] & 0.783 & 0.235 \\
+M4 8-bit, question dropped (seed 42) & C+A & 1 & 0.735 $\pm$ 0.000 & 0.897 $\pm$ 0.000 & [0.873, 0.919] & 0.971 & 0.504 $\pm$ 0.000 & [0.462, 0.547] & 0.497 & 0.393 \\
+M4 answer-only (new) & A & 3 & 0.572 $\pm$ 0.004 & 0.607 $\pm$ 0.006 & [0.575, 0.636] & 0.674 & 0.518 $\pm$ 0.004 & [0.482, 0.551] & 0.528 & 0.089 \\
+M4 question+answer, no context (new) & Q+A & 3 & 0.703 $\pm$ 0.011 & 0.704 $\pm$ 0.016 & [0.676, 0.732] & 0.808 & 0.700 $\pm$ 0.010 & [0.663, 0.734] & 0.804 & 0.004 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

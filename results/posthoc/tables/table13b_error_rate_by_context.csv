@@ -1,0 +1,6 @@
+Model,Error rate with context,Error rate without context,Errors with context,Errors without context
+M0,0.22,0.5,158,255
+M1,0.422,0.5,303,255
+M2,0.489,0.49,351,250
+M4-100%,0.074,0.298,53,152
+M5,0.142,0.437,102,223

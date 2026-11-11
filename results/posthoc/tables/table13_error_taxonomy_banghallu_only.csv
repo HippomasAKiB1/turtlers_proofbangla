@@ -1,0 +1,13 @@
+Category,Macro-bucket,M0,M1,M2,M4-100%,M5
+1. Numeric / date / quantity mismatch,Factual detail,17 (4.1%),69 (12.4%),85 (14.1%),8 (3.9%),21 (6.5%)
+2. Entity / term substitution,Factual detail,0 (0.0%),45 (8.1%),65 (10.8%),9 (4.4%),7 (2.2%)
+3. Negation / polarity flip,Logical,0 (0.0%),0 (0.0%),0 (0.0%),0 (0.0%),0 (0.0%)
+4. Unsupported addition (extrinsic),Extrinsic content,0 (0.0%),2 (0.4%),16 (2.7%),11 (5.4%),0 (0.0%)
+5. Subtle intrinsic contradiction,Logical,96 (23.2%),75 (13.4%),86 (14.3%),7 (3.4%),30 (9.2%)
+6. Paraphrase / lexical divergence,Surface / form,41 (9.9%),109 (19.5%),96 (16.0%),17 (8.3%),42 (12.9%)
+7. Context truncation loss,Input processing,0 (0.0%),0 (0.0%),0 (0.0%),0 (0.0%),0 (0.0%)
+8. Code-switch / script mismatch,Surface / form,1 (0.2%),2 (0.4%),1 (0.2%),0 (0.0%),1 (0.3%)
+9. Numeral / Unicode normalisation variant,Surface / form,1 (0.2%),1 (0.2%),1 (0.2%),1 (0.5%),1 (0.3%)
+10. Legal reference mismatch,Factual detail,2 (0.5%),0 (0.0%),1 (0.2%),0 (0.0%),0 (0.0%)
+11. No evidence (empty context),No evidence,255 (61.7%),255 (45.7%),250 (41.6%),152 (74.1%),223 (68.6%)
+Total errors,,413,558,601,205,325

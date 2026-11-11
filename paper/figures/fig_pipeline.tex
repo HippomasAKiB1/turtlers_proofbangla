@@ -1,0 +1,66 @@
+% Study-design overview (Fig. 1). Diagram only: every count repeats a value stated in the text.
+\begin{tikzpicture}[
+  font=\scriptsize,
+  >={Stealth[length=1.6mm]},
+  box/.style={draw, rounded corners=1.5pt, align=left, inner sep=2.2pt, text width=#1, fill=white, anchor=north west, execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000}},
+  ph/.style={box=#1, dashed, fill=black!6},
+  key/.style={box=#1, very thick, fill=black!12},
+  head/.style={font=\footnotesize\bfseries, rotate=90, anchor=south, inner sep=1.5pt},
+  grp/.style={draw=black!30, rounded corners=3pt, inner sep=2.5pt},
+  flow/.style={->, thick, black!70},
+  frz/.style={->, line width=1.2pt},
+]
+\def\g{1.8mm}
+% ================= (1) DATA =================
+\node[box=2.55cm] (bh) at (0,0) {\textbf{BangHallu}\\train 6,134 $\to$ 5,627\\(leakage filter)\\dev 1,238\\test 1,228};
+\node[ph=2.05cm] (split) at ([xshift=\g]bh.north east) {\textbf{Test split}\\$T_c$: 718 rows\\with context\\$T_\emptyset$: 510 without};
+\node[box=2.05cm] (olik) at ([xshift=\g]split.north east) {\textbf{Olikbochon}\\299 labelled rows\\clean variant\\removes 30\\near-duplicates};
+\node[box=2.55cm] (legal) at ([xshift=\g]olik.north east) {\textbf{Legal} (2 sources)\\1,607 questions\\BM25 + E5 retrieval\\over 1,219 chunks\\1,364 answer pairs};
+\node[box=1.95cm] (rt) at ([xshift=\g]legal.north east) {\textbf{RAGTruth}\\native tests\\English 2,675\\Chinese 2,700};
+\begin{scope}[on background layer]\node[grp, fit=(bh)(split)(olik)(legal)(rt)] (gA) {};\end{scope}
+
+% ================= (2) DETECTORS =================
+\node[box=1.9cm] (m0) at ([xshift=2.5pt,yshift=-5mm]gA.south west) {\textbf{No training}\\M0 lexical\\containment};
+\node[box=2.75cm] (rel) at ([xshift=\g]m0.north east) {\textbf{Released, zero-shot}\\M1 ModernBERT, English\\M2 EuroBERT, Chinese\\token heads};
+\node[box=4.25cm] (ft) at ([xshift=\g]rel.north east) {\textbf{Fine-tuned on BangHallu train}\\M3 XLM-R, seq.\ head\\M4 BanglaBERT-large, seq.\ head\\M5 XLM-R, token head + MIL loss\\\textit{0 / 10 / 25 / 100\% of train $\times$ 3 seeds}};
+\node[box=2.05cm] (m6) at ([xshift=\g]ft.north east) {\textbf{LLM verifier}\\M6 Qwen2.5-3B,\\4-bit, zero-shot\\prompt};
+\begin{scope}[on background layer]\node[grp, fit=(m0)(rel)(ft)(m6)] (gB) {};\end{scope}
+
+% ================= (3) PROTOCOL =================
+\node[box=2.35cm] (inp) at ([xshift=2.5pt,yshift=-5mm]gB.south west) {\textbf{Input} $(q,c,a)$\\truncate $c$ only,\\never $a$};
+\node[box=2.6cm] (sc) at ([xshift=5mm]inp.north east) {\textbf{Answer score} $s$\\seq.: $p(y{=}1\mid q,c,a)$\\token: max over\\answer tokens};
+\node[key=2.75cm] (tau) at ([xshift=5mm]sc.north east) {\textbf{Threshold} $\tau^*$\\maximize Macro-F1 on\\BangHallu dev, then \textbf{freeze}};
+\node[box=2.6cm] (met) at ([xshift=5mm]tau.north east) {\textbf{Metrics, tests}\\Macro-F1, AUROC,\\ECE; bootstrap CI;\\McNemar + Holm};
+\draw[flow] (inp.east) -- (inp.east -| sc.west);
+\draw[flow] (sc.east) -- (sc.east -| tau.west);
+\draw[flow] (tau.east) -- (tau.east -| met.west);
+\begin{scope}[on background layer]\node[grp, fit=(inp)(sc)(tau)(met)] (gC) {};\end{scope}
+
+% ================= (4) ANALYSES =================
+\node[box=2.2cm] (r1) at ([xshift=2.5pt,yshift=-5mm]gC.south west) {\textbf{RQ1} transfer\\zero-shot M0--M2\\tokenizer fertility};
+\node[box=2.2cm] (r2) at ([xshift=\g]r1.north east) {\textbf{RQ2} adaptation\\supervision curve\\M3, M4, M5};
+\node[ph=2.55cm] (r3) at ([xshift=\g]r2.north east) {\textbf{RQ3} grounding\\M4 on $T_c$ vs.\ $T_\emptyset$\\input ablation:\\$a$, $q{+}a$, $c{+}a$, $q{+}c{+}a$};
+\node[box=2.3cm] (r4) at ([xshift=\g]r3.north east) {\textbf{RQ4} shift\\Olikbochon\\(all / clean); legal:\\gold vs.\ retrieved};
+\node[box=2.25cm] (r5) at ([xshift=\g]r4.north east) {\textbf{RQ5} reliability\\calibration, abstention,\\cost; error analysis};
+\node[ph=2.2cm] (r2b) at ([yshift=-\g]r2.south west) {M3 diagnostic:\\5 recipes};
+\node[ph=2.25cm] (r5b) at ([yshift=-\g]r5.south west) {temperature scaling};
+\begin{scope}[on background layer]\node[grp, fit=(r1)(r2)(r3)(r4)(r5)(r2b)(r5b)] (gD) {};\end{scope}
+
+
+% ================= band titles (left margin) =================
+\node[head] at (gA.west) {Data};
+\node[head] at (gB.west) {Detectors};
+\node[head] at (gC.west) {Protocol};
+\node[head] at (gD.west) {Analyses};
+
+% ================= band-to-band flows =================
+\draw[flow] (bh.south |- gA.south) -- node[right, font=\tiny]{train split} (bh.south |- gB.north);
+\draw[flow] (rt.south |- gA.south) -- node[left, font=\tiny]{native F1} (rt.south |- gB.north);
+\draw[flow] (sc.north |- gB.south) -- node[right, font=\tiny]{every detector} (sc.north);
+\draw[frz] (tau.south) -- node[right, font=\tiny\bfseries]{same frozen $\tau^*$ on every evaluation set} (tau.south |- gD.north);
+
+% ================= legend =================
+\node[anchor=north west, align=left, font=\tiny] at ([yshift=-1.5mm]gD.south west) {%
+\tikz[baseline=-0.6ex]\draw[dashed, fill=black!6] (0,-0.08) rectangle (0.35,0.12);~post hoc analysis (added after inspecting the main results)\\[1pt]
+\tikz[baseline=-0.6ex]\draw[very thick, fill=black!12] (0,-0.08) rectangle (0.35,0.12);~the single threshold, tuned once on the development set and never re-tuned};
+\end{tikzpicture}

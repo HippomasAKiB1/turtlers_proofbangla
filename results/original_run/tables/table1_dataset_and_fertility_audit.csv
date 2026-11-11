@@ -1,0 +1,12 @@
+Section,Dataset,Train,Dev,Test,Context present (%),Label granularity,Hallucinated (%),License,Tokenizer,Max len,Tokens/word EN,Tokens/word BN,Examples truncated EN (%),Examples truncated BN (%),Ans tokens truncated BN naive (%),Ans tokens truncated BN ctx-only (%)
+Dataset statistics,ragtruth,14942.0,0.0,2675.0,100.0,token/span + answer,43.4,MIT,--,--,--,--,--,--,--,--
+Dataset statistics,banghallu,5627.0,1238.0,1228.0,59.0,answer-level,50.0,see source card,--,--,--,--,--,--,--,--
+Dataset statistics,olikbochon,239.0,29.0,31.0,43.5,answer-level,45.5,see source card,--,--,--,--,--,--,--,--
+Dataset statistics,banglagovrag,80.0,10.0,10.0,100.0,answer-level,--,see source card,--,--,--,--,--,--,--,--
+Dataset statistics,bdlegalqa,1187.0,158.0,162.0,100.0,answer-level,--,see source card,--,--,--,--,--,--,--,--
+Tokenizer fertility audit,--,--,--,--,--,--,--,--,ModernBERT,4096.0,1.279,9.182,0.0,0.16,0.0,0.0
+Tokenizer fertility audit,--,--,--,--,--,--,--,--,EuroBERT,4096.0,1.241,8.098,0.0,0.0,0.0,0.0
+Tokenizer fertility audit,--,--,--,--,--,--,--,--,XLM-R-base,512.0,1.398,2.26,77.4,0.81,0.0,0.0
+Tokenizer fertility audit,--,--,--,--,--,--,--,--,BanglaBERT-large,512.0,2.139,1.437,92.8,0.33,0.0,0.0
+Tokenizer fertility audit,--,--,--,--,--,--,--,--,ModernBERT @512,512.0,1.279,9.182,71.47,28.5,2.059,0.0
+Tokenizer fertility audit,--,--,--,--,--,--,--,--,EuroBERT @512,512.0,1.241,8.098,69.27,24.43,0.829,0.0

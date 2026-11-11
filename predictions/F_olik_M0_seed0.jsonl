@@ -1,0 +1,299 @@
+{"id": "2019d9aa4548fce6", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 1.3945999962743372}
+{"id": "a23580c2053b377b", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.055800002883188426}
+{"id": "31930aab9763c334", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.04199999966658652}
+{"id": "1a82c60f251d3fe9", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0], "latency_ms": 0.2953000002889894}
+{"id": "f22e337b4af7859d", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.027099995349999517}
+{"id": "d6534aa70607e84c", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.013999997463542968}
+{"id": "6d7e064a90566ced", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0], "latency_ms": 0.17359999765176326}
+{"id": "08fa27664a78051e", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.02390000008745119}
+{"id": "78e7f9680446f02c", "gold_label": 1, "pred_prob": 0.043478260869565216, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0], "latency_ms": 0.5655999993905425}
+{"id": "b13570f816ccdba1", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.057600002037361264}
+{"id": "366b54530e64841b", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.017300000763498247}
+{"id": "1b7cee3f091921cd", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.38269999640760943}
+{"id": "c6a1501725f665fd", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.03199999628122896}
+{"id": "ef2d129f078f334c", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.021100000594742596}
+{"id": "2684dbff2803beb0", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.024100001610349864}
+{"id": "d7f0988342230660", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.031299998227041215}
+{"id": "63a54c5b613681d2", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0], "latency_ms": 0.3482999964035116}
+{"id": "2f8b41430a3124c3", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.46609999844804406}
+{"id": "74123f1fd142413b", "gold_label": 1, "pred_prob": 0.2222222222222222, "pred_label": 1, "token_probs": [0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.25270000332966447}
+{"id": "792a902b60455874", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.6170999986352399}
+{"id": "b6308b2361842abc", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.056400000175926834}
+{"id": "0273dae26ac532bd", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.024300003133248538}
+{"id": "89302cbd4e9e1a90", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0], "latency_ms": 0.5684000061592087}
+{"id": "fe4a611c362b4461", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.24809999740682542}
+{"id": "5d660391b85152ce", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.05029999738326296}
+{"id": "d8c0568e175de251", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.032500000088475645}
+{"id": "87932ddce1387856", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.056400000175926834}
+{"id": "c729582838c629f5", "gold_label": 0, "pred_prob": 0.42857142857142855, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.563299996429123}
+{"id": "c31a61ba77e34916", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.0897999998414889}
+{"id": "be732fd2558256c0", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.014700002793688327}
+{"id": "6f58a01d61de7ae1", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.020399995264597237}
+{"id": "8bf50bb047fc11fb", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0], "latency_ms": 0.18930000078398734}
+{"id": "eadb6da392e37c61", "gold_label": 1, "pred_prob": 0.16666666666666666, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 1.0, 0.0], "latency_ms": 0.1899999988381751}
+{"id": "aeda99b670591016", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.013600001693703234}
+{"id": "0b2b622ed8f6c923", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.21939999714959413}
+{"id": "62d38587550302a1", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.031000003218650818}
+{"id": "08162d1c065234ff", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.01460000203223899}
+{"id": "0327f07c87413ef1", "gold_label": 1, "pred_prob": 0.4, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.07510000432375818}
+{"id": "ca3f6361ede5b30d", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.012899996363557875}
+{"id": "582618be079d2501", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.011199997970834374}
+{"id": "e34fb5c8a437a515", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.16379999578930438}
+{"id": "25b30a7f735c78cd", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.025500004994682968}
+{"id": "bc1f2a522319e2ec", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.01979999797185883}
+{"id": "974eb00bd8ee1c4f", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.016399993910454214}
+{"id": "9557f0acfcd95728", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.011399999493733048}
+{"id": "f28a902bea78a2c0", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0], "latency_ms": 0.26729999808594584}
+{"id": "12e8bfb31a99956f", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.016500001947861165}
+{"id": "a598199b52079495", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.015799996617715806}
+{"id": "186d3fbc5aaa4f2f", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.022000000171829015}
+{"id": "edd28e39cb2e3493", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.014499993994832039}
+{"id": "6fdb4d1636a4c8e7", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.00979999458650127}
+{"id": "226b2115c9a20910", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.20870000298600644}
+{"id": "853fca698279d146", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.026900001103058457}
+{"id": "e41f3b900e80d606", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.6807999961893074}
+{"id": "ac369ef308c386ef", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.05909999890718609}
+{"id": "31f7be1ec2c823d2", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.009200004569720477}
+{"id": "fd0efd68e74eb080", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.1311999949393794}
+{"id": "252c885372d09a25", "gold_label": 1, "pred_prob": 0.3, "pred_label": 1, "token_probs": [1.0, 0.0, 0.0, 0.0, 0.5], "latency_ms": 0.2876999933505431}
+{"id": "01e542cbf024ac0d", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.017100006516557187}
+{"id": "32e3bd48c39bc80d", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.014500001270789653}
+{"id": "07bf1d4de3fc8b81", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.009700001101009548}
+{"id": "b82e19ca3ec9047f", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.030199997127056122}
+{"id": "97ddcbf1786a2b2c", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02300000051036477}
+{"id": "60c7ed75d23d9774", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.016600002709310502}
+{"id": "6dc52b4c41295744", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.008000002708286047}
+{"id": "d6c4f646e547209a", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.015300000086426735}
+{"id": "10241db52dfb1670", "gold_label": 1, "pred_prob": 0.125, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0], "latency_ms": 0.2830000012181699}
+{"id": "9d8ba5c5c3990920", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02479999966453761}
+{"id": "b48bbf95c8e816a0", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.7729999997536652}
+{"id": "6d821fe0cfb21fe2", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.028100002964492887}
+{"id": "34a581f331430011", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02680000034160912}
+{"id": "8e4e2679f6043f32", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.012399999832268804}
+{"id": "cc9eac3ac5fc784f", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.021899999410379678}
+{"id": "e5d51938df4148fc", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.008999995770864189}
+{"id": "709946a18bbb26c1", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0], "latency_ms": 0.2778999987640418}
+{"id": "8ba9c6e90a9487f0", "gold_label": 1, "pred_prob": 0.07142857142857142, "pred_label": 1, "token_probs": [0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.11000000085914508}
+{"id": "f0f473395307c199", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0], "latency_ms": 0.46909999946365133}
+{"id": "4f42e372152252e5", "gold_label": 0, "pred_prob": 0.46153846153846156, "pred_label": 1, "token_probs": [0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0], "latency_ms": 0.9351999979116954}
+{"id": "43879d3fc34ef816", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.0284000052488409}
+{"id": "ccb7e3f2df2a2620", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0], "latency_ms": 0.3941999966627918}
+{"id": "5616a32757480dd7", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.0501000031363219}
+{"id": "d854e8e76f2770c4", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [], "latency_ms": 0.005799993232358247}
+{"id": "ff971ed6e742601f", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.5014999987906776}
+{"id": "5202cffcee3ff7b8", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0], "latency_ms": 0.9401999996043742}
+{"id": "5ab98423a62a2456", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.041200000850949436}
+{"id": "00a3ed3ed71357a4", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.018800004909280688}
+{"id": "72ed6bbfb99144b1", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.09770000178832561}
+{"id": "0f0b63f347b3b773", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.033899996196851134}
+{"id": "f21d173547b7a085", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.016199999663513154}
+{"id": "be911eaef7731884", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.01809999957913533}
+{"id": "a730c44068f6a54a", "gold_label": 1, "pred_prob": 0.03225806451612903, "pred_label": 1, "token_probs": [0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.4101000013179146}
+{"id": "794dba79d8426dd6", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.04610000178217888}
+{"id": "006a86f572f60de8", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02710000262595713}
+{"id": "d88e2c061ef215c9", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0], "latency_ms": 0.35000000207219273}
+{"id": "b9abb687dd661659", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.4946000044583343}
+{"id": "0e1fcf4229ba1277", "gold_label": 0, "pred_prob": 0.5, "pred_label": 1, "token_probs": [0.0, 1.0], "latency_ms": 0.418399999034591}
+{"id": "b6c52bb49599d0b7", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.20180000137770548}
+{"id": "9fbc1f19eaa5e1e4", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.29910000012023374}
+{"id": "f8af4c1caf4f3ee8", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.25240000104531646}
+{"id": "dbdc32664116b9e1", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.08439999510301277}
+{"id": "9e1bf20eea0b4f74", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.2840000015567057}
+{"id": "6ee0b304d8419498", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02720000338740647}
+{"id": "c9b7be5c158a1436", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.01189999602502212}
+{"id": "bd18aaae98079173", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.008700000762473792}
+{"id": "526e440aa84be3fb", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.012899996363557875}
+{"id": "bb1fb7e6205f3af6", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.016500001947861165}
+{"id": "e819be570cfeb929", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02920000406447798}
+{"id": "53f9c4bfe0ba1056", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.013899996702093631}
+{"id": "e195013eaa8e1da0", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.03800000558840111}
+{"id": "103d7dd58f323079", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.016199999663513154}
+{"id": "182cb31e0258782d", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.013299999409355223}
+{"id": "af1ea4f764fd356a", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.022899999748915434}
+{"id": "25e64e68a2939628", "gold_label": 1, "pred_prob": 0.15, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.0], "latency_ms": 0.22989999706624076}
+{"id": "21cb9d26c7faea3a", "gold_label": 0, "pred_prob": 0.5, "pred_label": 1, "token_probs": [0.0, 1.0], "latency_ms": 0.2426999999443069}
+{"id": "288506e9a6603062", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0], "latency_ms": 0.3901999953086488}
+{"id": "9dd7a8bead34df19", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.023500004317611456}
+{"id": "108d9fe832510120", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.024500004656147212}
+{"id": "c53ac2be017d985e", "gold_label": 1, "pred_prob": 0.16666666666666666, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 1.0], "latency_ms": 0.12919999426230788}
+{"id": "8633413fd27f465b", "gold_label": 1, "pred_prob": 0.09090909090909091, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.24189999385271221}
+{"id": "8709fc757095cf2c", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.04990000161342323}
+{"id": "948a63440b2e8029", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.014400000509340316}
+{"id": "36c02b0a769aee47", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.010899995686486363}
+{"id": "5aaa7715a7005508", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.03480000304989517}
+{"id": "96e6bbf5822cd1c3", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.2682000049389899}
+{"id": "e3b838c04fa5162b", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.022799998987466097}
+{"id": "b48cdcddf57cf75f", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.21349999587982893}
+{"id": "73b756363a4a4f6d", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.03410000499570742}
+{"id": "1e9fca3b46ab7597", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.018999999156221747}
+{"id": "88232112c2b44135", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.1883000004454516}
+{"id": "7746ceb93a23ab29", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0], "latency_ms": 0.26169999910052866}
+{"id": "162165ae977e529a", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.167500002135057}
+{"id": "2e89b58777427152", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.015199999324977398}
+{"id": "38ad133f6872061f", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.54929999896558}
+{"id": "8c9ffc7b0110f291", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.024599998141638935}
+{"id": "4630bd456ea9c3f7", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.01829999382607639}
+{"id": "9f2390c6d991b332", "gold_label": 1, "pred_prob": 0.16666666666666666, "pred_label": 1, "token_probs": [1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.07420000474667177}
+{"id": "8cd0b86261220516", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.3189999988535419}
+{"id": "88fbdca5984ece47", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.06679999933112413}
+{"id": "34ba230d52b0cf4d", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0], "latency_ms": 0.07439999899361283}
+{"id": "4a8715e27aa57c93", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.07100000220816582}
+{"id": "46ef85bc461b6e09", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.03470000228844583}
+{"id": "96d64c12543da005", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.012099997547920793}
+{"id": "b1037d760f4ebc95", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.09700000373413786}
+{"id": "f360089b358085da", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.013899996702093631}
+{"id": "b3a48ffed33ba69b", "gold_label": 1, "pred_prob": 0.125, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0], "latency_ms": 0.18799999816110358}
+{"id": "9d66665dba1eaada", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0], "latency_ms": 0.2175999979954213}
+{"id": "73f2cbb6cc0d1d1d", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02479999966453761}
+{"id": "e786ef201286cc03", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.015300000086426735}
+{"id": "6ec1f2484597f9f2", "gold_label": 1, "pred_prob": 0.3333333333333333, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0], "latency_ms": 0.1649999976507388}
+{"id": "aa97244bc518cd64", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.024599998141638935}
+{"id": "22cc91615df9e703", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.017400001524947584}
+{"id": "eeeaf5e2000b5f4f", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.33059999987017363}
+{"id": "9e2d0bd7838066bb", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.19269999756943434}
+{"id": "eae7bf8c1595b229", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.016500001947861165}
+{"id": "8ce2dfd026bf4d1f", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.013999997463542968}
+{"id": "41ee84095e4bb656", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.013699995179194957}
+{"id": "82020dd2af6b6ce3", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.011600001016631722}
+{"id": "c21bbf82d0bf859e", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.00839999847812578}
+{"id": "7e18a94d0d1ea14b", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0], "latency_ms": 0.15519999578827992}
+{"id": "d9930629d874475f", "gold_label": 1, "pred_prob": 0.3125, "pred_label": 1, "token_probs": [0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0], "latency_ms": 0.09479999425821006}
+{"id": "ea999b44ac92164d", "gold_label": 1, "pred_prob": 0.05263157894736842, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.3682000024127774}
+{"id": "7ce06b280af2946c", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0], "latency_ms": 0.250899996899534}
+{"id": "366cb1d094ef7ace", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.022000000171829015}
+{"id": "51db9dd0d0650db8", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.01630000042496249}
+{"id": "7e4913ee968ca0fa", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [], "latency_ms": 0.0033999967854470015}
+{"id": "5dac3fe576f8ee22", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.6167000028654002}
+{"id": "43f29f3a8bd8c7bc", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.022100000933278352}
+{"id": "fd1a8ce85cc641c1", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.011000003723893315}
+{"id": "5cb58b0af66f26ad", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.13249999756226316}
+{"id": "68fe5aa25e6d2d61", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.03199999628122896}
+{"id": "fc4d26ceeff8bfa2", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.014400000509340316}
+{"id": "b9b8fbba85bb5e14", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.013500000932253897}
+{"id": "a9188b94061e3af5", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.010900002962443978}
+{"id": "e44dee2fa4536a85", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.01069999416358769}
+{"id": "ec03099d94ccca1e", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0], "latency_ms": 0.2834000042639673}
+{"id": "082e9edd648ea704", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.01889999839477241}
+{"id": "86aa8f1d913ae263", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.1995999991777353}
+{"id": "273ff192145451bf", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.034500000765547156}
+{"id": "126821d2436c7d67", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.022100000933278352}
+{"id": "7b6ae2ff77483989", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.015300000086426735}
+{"id": "1fb962fd782057f5", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.012500000593718141}
+{"id": "2dc0ee5937923e39", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.013999997463542968}
+{"id": "29f8af6917d65176", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.008200004231184721}
+{"id": "488aa633a5a0517e", "gold_label": 1, "pred_prob": 0.13157894736842105, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0], "latency_ms": 0.2227000004495494}
+{"id": "8098ec13995b4bca", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.3328000020701438}
+{"id": "92c8370191855c4b", "gold_label": 1, "pred_prob": 0.05263157894736842, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.5954000007477589}
+{"id": "e6f6a830c7363d09", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.2514000007067807}
+{"id": "42d473ea5fcc887c", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0], "latency_ms": 0.27850000333273783}
+{"id": "95048acb68ee96e4", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.019800005247816443}
+{"id": "6f3c8bf949554cc5", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.0185999961104244}
+{"id": "f6a94335ba45ad87", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.14039999950909987}
+{"id": "f108c22ba7fa0b32", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.018000006093643606}
+{"id": "1b9ab8cd20ff2c62", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.025800000003073364}
+{"id": "8d68cae023466c92", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.15640000492567196}
+{"id": "136f0a03718d245b", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.028399997972883284}
+{"id": "73c22b60cc7db4cc", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.1840999975684099}
+{"id": "406f7a4b93ff09b8", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.3462999957264401}
+{"id": "1b688faa16a3205b", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0], "latency_ms": 0.21299999934853986}
+{"id": "1ea53e06aa793157", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.030700000934302807}
+{"id": "96938b1548e108c6", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.022400003217626363}
+{"id": "5a8f219d81b95deb", "gold_label": 1, "pred_prob": 0.25, "pred_label": 1, "token_probs": [0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0], "latency_ms": 0.3391999998711981}
+{"id": "0191f187bdd34517", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.1754000040818937}
+{"id": "97a4c506e9e4c9fc", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.15590000111842528}
+{"id": "7bef478942d70b0d", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.022799998987466097}
+{"id": "33b16d22441864ca", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.010299998393747956}
+{"id": "3792d8e504a181e6", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.011100004485342652}
+{"id": "99c835f8a1096202", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.028800001018680632}
+{"id": "bca565ad2ca304be", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.01460000203223899}
+{"id": "c29efb5ae606e8ec", "gold_label": 1, "pred_prob": 0.05555555555555555, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0], "latency_ms": 0.3729999953065999}
+{"id": "f9e30d3edda75ff2", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.03170000127283856}
+{"id": "42a3031a43cceab2", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.026900001103058457}
+{"id": "c5471ed8011f050d", "gold_label": 1, "pred_prob": 0.045454545454545456, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.182100004167296}
+{"id": "1db8cfb411a75bf1", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.021200001356191933}
+{"id": "e5cf8dcde727c718", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.01809999957913533}
+{"id": "82f7548007471f91", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.3578000032575801}
+{"id": "c4931d4013c05efb", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.3257999997003935}
+{"id": "0ece4be32befe4df", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.3555000002961606}
+{"id": "15558ffd468f52cc", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.14370000280905515}
+{"id": "25a0700ea67c0241", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.24729999859118834}
+{"id": "84e5706f64bbd89f", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.037699996028095484}
+{"id": "16eaa7051ac844f1", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.11509999603731558}
+{"id": "bcb01c2b3f1b412c", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.023600005079060793}
+{"id": "f2ec7f8acc62264f", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.011800002539530396}
+{"id": "7c162aa67b78dca1", "gold_label": 1, "pred_prob": 0.1111111111111111, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0], "latency_ms": 0.673100003041327}
+{"id": "ec6f8e416f254e71", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.4578000007313676}
+{"id": "04adcd8f56928886", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.36130000080447644}
+{"id": "d1d1a22dfb593596", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02989999484270811}
+{"id": "ba0efdad8e3346d8", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0], "latency_ms": 0.15140000323299319}
+{"id": "6fd89517b7f1e2e3", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.015099998563528061}
+{"id": "e2a6d80de3119369", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.5476000005728565}
+{"id": "fec579a56e482747", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.3820000056293793}
+{"id": "6ce07d8e1a4a1f8b", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02479999966453761}
+{"id": "855902ed1bf7cd3a", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.008899995009414852}
+{"id": "b10da42e08019818", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.836799998069182}
+{"id": "9b24300208db00bd", "gold_label": 1, "pred_prob": 0.18181818181818182, "pred_label": 1, "token_probs": [1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.24229999689850956}
+{"id": "e4a0913e11245d7b", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.025500004994682968}
+{"id": "a47836eb3d9efdec", "gold_label": 1, "pred_prob": 0.09090909090909091, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.06990000110818073}
+{"id": "0f9a72d2054e0370", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.17120000120485201}
+{"id": "9ad4f964d400362e", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02130000211764127}
+{"id": "c49f935ec433aaae", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.013199998647905886}
+{"id": "7d615bfa7d69f489", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.012700002116616815}
+{"id": "345f6f4344e126b5", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.3251000016462058}
+{"id": "148dc8fd96e6d8ed", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.01599999814061448}
+{"id": "e6565a2864eb4e41", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.014099998224992305}
+{"id": "5404ddbbdb44566e", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.01340000017080456}
+{"id": "b9e32887ae142445", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.011399999493733048}
+{"id": "eae0131ebe26d8a9", "gold_label": 1, "pred_prob": 0.19444444444444445, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.5, 0.0, 1.0], "latency_ms": 0.09649999992689118}
+{"id": "4662f71a2b454d49", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.3884999969159253}
+{"id": "66b2e91ff455c020", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.051399998483248055}
+{"id": "fe028ea0db717aa0", "gold_label": 1, "pred_prob": 0.16666666666666666, "pred_label": 1, "token_probs": [0.5, 0.0, 0.0], "latency_ms": 0.19350000366102904}
+{"id": "f12beee279a7556c", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.021299994841683656}
+{"id": "837c556b8a7030d1", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.34840000444091856}
+{"id": "dec58caa87ac1f88", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.021500003640539944}
+{"id": "6ba17c68c2da7341", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.2193000036641024}
+{"id": "197e12be55107d52", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.014500001270789653}
+{"id": "7fddf86125e54914", "gold_label": 1, "pred_prob": 0.25, "pred_label": 1, "token_probs": [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0], "latency_ms": 0.2223999981652014}
+{"id": "52478318aee86511", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.020200001017656177}
+{"id": "1c4856ab698c602d", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.10109999857377261}
+{"id": "e18e8d1f09d0d7e2", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.020200001017656177}
+{"id": "87eedab5b49febf0", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.020799998310394585}
+{"id": "72fb5b24a8ca8882", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.013100005162414163}
+{"id": "775b15daf1491dbe", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.012500000593718141}
+{"id": "8d25f77895d30474", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.009199997293762863}
+{"id": "7caca29685470716", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.008400005754083395}
+{"id": "e15749e33373fd20", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.01809999957913533}
+{"id": "1a6cbea9f5de7091", "gold_label": 1, "pred_prob": 0.16666666666666666, "pred_label": 1, "token_probs": [1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.6557000015163794}
+{"id": "82234a47628a0d0a", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 1.1964999939664267}
+{"id": "3b16be47b4576d4d", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.5866999999852851}
+{"id": "c89c88c4962cb2a4", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.03650000144261867}
+{"id": "546eb49b83fcefa0", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0], "latency_ms": 0.021899999410379678}
+{"id": "2eb77100d78ca51a", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.1325999983237125}
+{"id": "7f8a3bed01ab517e", "gold_label": 1, "pred_prob": 0.09090909090909091, "pred_label": 1, "token_probs": [0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.13329999637790024}
+{"id": "4382711b3e4f7097", "gold_label": 1, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.2953000002889894}
+{"id": "809915a18dcbd436", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0], "latency_ms": 0.02439999661874026}
+{"id": "81e256b0c0c2cbbb", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.010200004908256233}
+{"id": "ce0b267f27677937", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0], "latency_ms": 0.013500000932253897}
+{"id": "14d1bea2658a4ae7", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.24029999622143805}
+{"id": "ff80b696838df6b3", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.12180000339867547}
+{"id": "7bce2b4f636339c3", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.08740000339457765}
+{"id": "d46e29515b3ab811", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.011100004485342652}
+{"id": "d659b3406450e70b", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.21639999613398686}
+{"id": "ee08e92fa7915ef7", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0], "latency_ms": 0.18479999562259763}
+{"id": "6bdb858f353fb0e7", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.026400004571769387}
+{"id": "22094793fb6a59bd", "gold_label": 1, "pred_prob": 0.15, "pred_label": 1, "token_probs": [0.5, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.15359999815700576}
+{"id": "c9a45e1753a5410f", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.018600003386382014}
+{"id": "fc62ff911e9db9b1", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.23949999740580097}
+{"id": "50efd17daee0c11a", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.031000003218650818}
+{"id": "3e4f4bb52baf8d7c", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.03170000127283856}
+{"id": "bc42920832a107a7", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0, 0.0], "latency_ms": 0.41530000453349203}
+{"id": "4a6176d916d81f32", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0], "latency_ms": 0.022000000171829015}
+{"id": "e5a0a7e5593e055a", "gold_label": 1, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.02359999780310318}
+{"id": "cd94edc240769773", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.026399997295811772}
+{"id": "ed5fd2e77e0ebe0b", "gold_label": 1, "pred_prob": 0.2, "pred_label": 1, "token_probs": [1.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 0.2967000036733225}
+{"id": "d881357a2b7ad72e", "gold_label": 1, "pred_prob": 0.5, "pred_label": 1, "token_probs": [0.0, 1.0, 0.0, 1.0, 0.0, 1.0], "latency_ms": 0.40549999539507553}
+{"id": "fd18e3af2c39d7fe", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0], "latency_ms": 0.22819999867351726}
+{"id": "ba41259c29b52be5", "gold_label": 0, "pred_prob": 1.0, "pred_label": 1, "token_probs": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "latency_ms": 0.20360000053187832}
+{"id": "f1198a3492aafe9c", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0, 0.0, 0.0], "latency_ms": 0.43000000005122274}
+{"id": "4fd07424615dbb86", "gold_label": 1, "pred_prob": 0.0625, "pred_label": 1, "token_probs": [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "latency_ms": 1.072099999873899}
+{"id": "50f4e045f371e107", "gold_label": 0, "pred_prob": 0.0, "pred_label": 0, "token_probs": [0.0], "latency_ms": 0.2513999934308231}

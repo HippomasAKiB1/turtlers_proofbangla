@@ -1,0 +1,17 @@
+\begin{tabular}{@{}lrrcccc@{}}
+\toprule
+Model & \% & Examples & Macro-F1 & 95\% CI & AUROC & ECE \\
+\midrule
+M3 XLM-R-base (sequence head) & 0 & 0 & 0.503 $\pm$ 0.019 & [0.487, 0.516] & 0.504 $\pm$ 0.019 & 0.056 $\pm$ 0.043 \\
+M3 XLM-R-base (sequence head) & 10 & 564 & 0.506 $\pm$ 0.027 & [0.489, 0.523] & 0.539 $\pm$ 0.021 & 0.013 $\pm$ 0.003 \\
+M3 XLM-R-base (sequence head) & 25 & 1,408 & 0.561 $\pm$ 0.053 & [0.542, 0.580] & 0.585 $\pm$ 0.070 & 0.053 $\pm$ 0.020 \\
+M3 XLM-R-base (sequence head) & 100 & 5,627 & 0.502 $\pm$ 0.054 & [0.484, 0.521] & 0.528 $\pm$ 0.018 & 0.015 $\pm$ 0.002 \\
+\midrule
+M4 BanglaBERT-large + normalizer & 0 & 0 & 0.501 $\pm$ 0.020 & [0.487, 0.514] & 0.510 $\pm$ 0.032 & 0.028 $\pm$ 0.029 \\
+M4 BanglaBERT-large + normalizer & 10 & 564 & 0.775 $\pm$ 0.027 & [0.755, 0.794] & 0.853 $\pm$ 0.025 & 0.154 $\pm$ 0.050 \\
+M4 BanglaBERT-large + normalizer & 25 & 1,408 & 0.785 $\pm$ 0.010 & [0.767, 0.803] & 0.892 $\pm$ 0.013 & 0.096 $\pm$ 0.015 \\
+M4 BanglaBERT-large + normalizer & 100 & 5,627 & 0.832 $\pm$ 0.007 & [0.814, 0.850] & 0.933 $\pm$ 0.005 & 0.117 $\pm$ 0.007 \\
+\midrule
+M5 XLM-R-base (token head, MIL loss) & 100 & 5,627 & 0.730 $\pm$ 0.008 & -- & 0.837 & -- \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,6 @@
+Input to M4,Optimiser,Seeds,F1 all,CI all,AUROC all,F1 with context (n=718),AUROC with,F1 without context (n=510),AUROC without
+Answer only,adamw_fused,3,0.572 ± 0.004,"[0.549, 0.594]",0.618,0.607 ± 0.006,0.674,0.518 ± 0.004,0.528
+Question + answer (no context),adamw_fused,3,0.703 ± 0.011,"[0.682, 0.723]",0.807,0.704 ± 0.016,0.808,0.700 ± 0.010,0.804
+Question + context + answer (M4 reference),?,3,0.832 ± 0.007,"[0.814, 0.850]",0.933,0.921 ± 0.006,0.983,0.705 ± 0.015,0.806
+"Context + answer, question dropped (8-bit, seed 42)",adamw8bit,1,0.735 ± 0.000,"[0.710, 0.758]",0.854,0.897 ± 0.000,0.971,0.504 ± 0.000,0.497
+"Question + context + answer (8-bit, seed 42)",adamw8bit,1,0.825 ± 0.000,"[0.803, 0.845]",0.925,0.921 ± 0.000,0.98,0.686 ± 0.000,0.783

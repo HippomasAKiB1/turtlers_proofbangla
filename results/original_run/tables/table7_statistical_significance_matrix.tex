@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Pairwise significance on BangHallu test (seed-majority-vote predictions): paired bootstrap CI of $\Delta$ Macro-F1 (1000 resamples), McNemar's test with continuity correction, Holm-Bonferroni adjustment over the family, Cohen's h on accuracy.}
+\label{tab:table7_statistical_significance_matrix}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+Comparison & $\Delta$ Macro-F1 & 95\% paired bootstrap CI of $\Delta$ & McNemar $\chi^2$ & p (raw) & p (Holm-Bonferroni) & Cohen's h & Significant (Holm α=0.05) \\
+\midrule
+M2-CN vs M1-EN & -0.025 & [-0.050, -0.000] & 6.323 & 0.012 & 0.012 & -0.070 & yes \\
+M4-100\% vs M2-CN & 0.334 & [0.301, 0.367] & 278.870 & 0.000 & \textbf{0.000} & 0.734 & yes \\
+M4-100\% vs M3-100\% & 0.306 & [0.275, 0.339] & 251.135 & 0.000 & \textbf{0.000} & 0.679 & yes \\
+M4-10\% vs M4-100\% & -0.040 & [-0.062, -0.019] & 11.876 & 0.001 & \underline{0.001} & -0.103 & yes \\
+\bottomrule
+\end{tabular}}
+\end{table*}

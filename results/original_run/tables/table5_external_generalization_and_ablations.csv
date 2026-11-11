@@ -1,0 +1,27 @@
+Section,Setting,Macro-F1,Olikbochon Macro-F1,Δ Macro-F1 (Olik − BangHallu),AUROC,Latency ms/ex,Peak VRAM MB,N eval
+External generalization (Olikbochon),M0 Lexical,0.653 ± 0.000,0.658 ± 0.000,0.005443263336944892,0.629 ± 0.000,--,--,--
+External generalization (Olikbochon),M1 English LettuceDetect,0.533 ± 0.000,0.542 ± 0.000,0.008379430611940353,0.602 ± 0.000,--,--,--
+External generalization (Olikbochon),M2 released EuroBERT-210M LettuceDetect (Chinese RAGTruth fine-tune),0.508 ± 0.000,0.561 ± 0.000,0.053042046397204,0.598 ± 0.000,--,--,--
+External generalization (Olikbochon),M3 XLM-R-base (100%),0.502 ± 0.054,0.496 ± 0.057,-0.006547855372029232,0.535 ± 0.016,--,--,--
+External generalization (Olikbochon),M4 BanglaBERT-large (100%),0.832 ± 0.007,0.698 ± 0.032,-0.13347727602383808,0.782 ± 0.013,--,--,--
+Pooling rule,M0 / max_i p_i,0.654521372172538,--,--,0.64656919436811,--,--,--
+Pooling rule,M0 / top3_mean,0.654521372172538,--,--,0.6052902418062792,--,--,--
+Pooling rule,M0 / top5_mean,0.654521372172538,--,--,0.6008671179535062,--,--,--
+Pooling rule,M1 / max_i p_i,0.5334740396791895,--,--,0.5463625608759775,--,--,--
+Pooling rule,M1 / top3_mean,0.5338576656289257,--,--,0.5469275536079958,--,--,--
+Pooling rule,M1 / top5_mean,0.5323011967234967,--,--,0.5469686681025794,--,--,--
+Pooling rule,M2 / max_i p_i,0.5083402449545166,--,--,0.5115319525936615,--,--,--
+Pooling rule,M2 / top3_mean,0.507491544700847,--,--,0.5173224649598405,--,--,--
+Pooling rule,M2 / top5_mean,0.5106291666999869,--,--,0.5183755265307854,--,--,--
+Pooling rule,M5 / max_i p_i,0.7296120951502436,--,--,0.8365760733093542,--,--,--
+Pooling rule,M5 / top3_mean,0.7261191046675967,--,--,0.7692592671186609,--,--,--
+Pooling rule,M5 / top5_mean,0.7204169965606241,--,--,0.7447859747406692,--,--,--
+Query conditioning,M4: question + context + answer (8-bit AdamW),0.8253697383390216,--,--,0.925183556324205,--,--,--
+Query conditioning,M4: context + answer (question dropped; 8-bit AdamW),0.7345518275750833,--,--,0.8537504376704261,--,--,--
+Accuracy vs efficiency (RQ6),M0 Lexical,0.6530454062536984,--,--,--,0.087321823324814,8.125,1228.0
+Accuracy vs efficiency (RQ6),M1 English LettuceDetect,0.5334740396791895,--,--,--,12.09308517981527,587.8798828125,1228.0
+Accuracy vs efficiency (RQ6),M2 released EuroBERT-210M LettuceDetect (Chinese RAGTruth fine-tune),0.5083402449545166,--,--,--,7.101928420495304,674.52099609375,1228.0
+Accuracy vs efficiency (RQ6),M3 XLM-R-base,0.5024327768637349,--,--,--,1.427812323572603,652.97900390625,1228.0
+Accuracy vs efficiency (RQ6),M4 BanglaBERT-large,0.831665362851027,--,--,--,8.751513978744349,784.40087890625,1228.0
+Accuracy vs efficiency (RQ6),M5 MIL token detector,0.7296120951502436,--,--,--,4.128854832259067,575.19775390625,1228.0
+Accuracy vs efficiency (RQ6),M6 3B 4-bit LLM verifier (subset),0.705485335624003,--,--,--,106.44762183341906,2902.25,600.0

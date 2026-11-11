@@ -1,0 +1,11 @@
+﻿category,name,meaning
+1,Numeric / date / quantity mismatch,answer's number/date/quantity differs from the context
+2,Entity / term substitution,one entity or term replaced by another
+3,Negation / polarity flip,negation or polarity flipped
+4,Unsupported addition (extrinsic),answer adds content not in the context
+5,Subtle intrinsic contradiction,subtle contradiction / reasoning error with the context
+6,Paraphrase / lexical divergence,answer is faithful but worded differently from the context (false alarm)
+7,Context truncation loss,evidence was cut off by truncation
+8,Code-switch / script mismatch,script or language mismatch (Bengali vs Latin)
+9,Numeral / Unicode normalisation variant,Bengali vs ASCII digit variant only
+10,Legal reference mismatch,wrong legal section / act reference

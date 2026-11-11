@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Low-resource Bengali adaptation on BangHallu test: mean $\pm$ SD over seeds and 95\textbackslash{}\% paired bootstrap CI of the seed-averaged Macro-F1 (supervision 0\textbackslash{}\% = untrained head control).}
+\label{tab:table4_low_resource_adaptation}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccccccc}
+\toprule
+Model & Supervision (\%) & Train examples & Seeds & Macro-F1 (mean $\pm$ SD) & 95\% Bootstrap CI & AUROC (mean $\pm$ SD) & Precision (mean $\pm$ SD) & Recall (mean $\pm$ SD) & ECE (mean $\pm$ SD) \\
+\midrule
+M3 XLM-R-base & 0 & 0 & 3 & \textbf{0.503 $\pm$ 0.019} & [0.487, 0.516] & \underline{0.504 $\pm$ 0.019} & \textbf{0.502 $\pm$ 0.020} & \textbf{0.499 $\pm$ 0.036} & \underline{0.056 $\pm$ 0.043} \\
+\midrule
+M3 XLM-R-base & 10 & 564 & 3 & \underline{0.506 $\pm$ 0.027} & [0.489, 0.523] & \underline{0.539 $\pm$ 0.021} & \underline{0.528 $\pm$ 0.022} & \underline{0.423 $\pm$ 0.187} & \textbf{0.013 $\pm$ 0.003} \\
+\midrule
+M3 XLM-R-base & 25 & 1408 & 3 & \underline{0.561 $\pm$ 0.053} & [0.542, 0.580] & \underline{0.585 $\pm$ 0.070} & \underline{0.569 $\pm$ 0.057} & \underline{0.517 $\pm$ 0.062} & \textbf{0.053 $\pm$ 0.020} \\
+\midrule
+M3 XLM-R-base & 100 & 5627 & 3 & \underline{0.502 $\pm$ 0.054} & [0.484, 0.521] & \underline{0.528 $\pm$ 0.018} & \underline{0.523 $\pm$ 0.026} & \underline{0.623 $\pm$ 0.168} & \textbf{0.015 $\pm$ 0.002} \\
+\midrule
+M4 BanglaBERT-large + normalizer & 0 & 0 & 3 & \underline{0.501 $\pm$ 0.020} & [0.487, 0.514] & \textbf{0.510 $\pm$ 0.032} & \underline{0.501 $\pm$ 0.021} & \underline{0.454 $\pm$ 0.056} & \textbf{0.028 $\pm$ 0.029} \\
+\midrule
+M4 BanglaBERT-large + normalizer & 10 & 564 & 3 & \textbf{0.775 $\pm$ 0.027} & [0.755, 0.794] & \textbf{0.853 $\pm$ 0.025} & \textbf{0.749 $\pm$ 0.035} & \textbf{0.833 $\pm$ 0.030} & \underline{0.154 $\pm$ 0.050} \\
+\midrule
+M4 BanglaBERT-large + normalizer & 25 & 1408 & 3 & \textbf{0.785 $\pm$ 0.010} & [0.767, 0.803] & \textbf{0.892 $\pm$ 0.013} & \textbf{0.780 $\pm$ 0.041} & \textbf{0.807 $\pm$ 0.104} & \underline{0.096 $\pm$ 0.015} \\
+\midrule
+M4 BanglaBERT-large + normalizer & 100 & 5627 & 3 & \textbf{0.832 $\pm$ 0.007} & [0.814, 0.850] & \textbf{0.933 $\pm$ 0.005} & \textbf{0.846 $\pm$ 0.030} & \textbf{0.815 $\pm$ 0.051} & \underline{0.117 $\pm$ 0.007} \\
+\bottomrule
+\end{tabular}}
+\end{table*}

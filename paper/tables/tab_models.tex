@@ -1,0 +1,13 @@
+\begin{tabular}{@{}l>{\raggedright}p{2.3cm}>{\raggedright}p{2.8cm}>{\raggedright}p{2.3cm}>{\raggedright}p{1.7cm}>{\raggedright\arraybackslash}p{1.9cm}@{}}
+\toprule
+ID & Backbone & Head / scoring & Training data & Bengali labels used & Role \tabularnewline
+\midrule
+M0 & -- (rule) & lexical containment of answer in context & none & dev threshold only & lexical baseline \tabularnewline
+M1 & ModernBERT-base & token classifier, max pooling & English RAGTruth (released) & dev threshold only & released detector \tabularnewline
+M2 & EuroBERT-210M & token classifier, max pooling & Chinese RAGTruth (released) & dev threshold only & released detector \tabularnewline
+M3 & XLM-R-base & sequence classifier, cross-entropy & BH 0/10/25/100\% & train + dev & multilingual sequence model \tabularnewline
+M4 & BanglaBERT-large + normalizer & sequence classifier, cross-entropy & BH 0/10/25/100\% & train + dev & Bengali encoder \tabularnewline
+M5 & XLM-R-base & token classifier, MIL loss & BH 100\% & train + dev & multilingual token model \tabularnewline
+M6 & Qwen2.5-3B-Instruct, 4-bit & zero-shot prompt, $p(\text{not supported})$ & none & dev threshold only & LLM verifier \tabularnewline
+\bottomrule
+\end{tabular}

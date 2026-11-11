@@ -1,0 +1,101 @@
+﻿sample_id,id,models_wrong,manual_category,llm_confidence,auto_category,auto_bucket,manual_bucket
+1,7c90ab4a72d1a6f0,"M0,M1,M2,M4-100%",6,HIGH,6,Surface / form,Surface / form
+2,9cea242225d42413,"M0,M1,M2",1,HIGH,5,Logical,Factual detail
+3,b6486973c746ec5a,M5,6,HIGH,6,Surface / form,Surface / form
+4,ba6fbdc8256f578a,M5,5,LOW,5,Logical,Logical
+5,111bab3093b3101a,"M0,M1,M2",2,HIGH,5,Logical,Factual detail
+6,1138c4f83813a5da,M2,2,HIGH,4,Extrinsic content,Factual detail
+7,dccffdb6f02cb4bf,"M1,M2",3,HIGH,2,Factual detail,Logical
+8,dba56a202f051610,M1,6,HIGH,6,Surface / form,Surface / form
+9,65be9c335ebfe2d9,"M0,M4-100%,M5",4,HIGH,1,Factual detail,Extrinsic content
+10,63a98ffe7a7d5111,"M1,M2",1,HIGH,1,Factual detail,Factual detail
+11,3f9c39c06b4ddda3,M1,1,HIGH,1,Factual detail,Factual detail
+12,17c4d109744de7c4,"M1,M2",1,HIGH,2,Factual detail,Factual detail
+13,906c8f18c02a21a2,M1,6,HIGH,6,Surface / form,Surface / form
+14,eff5b58757d3a862,"M2,M4-100%",5,HIGH,2,Factual detail,Logical
+15,2857be47a0cf6243,"M1,M2",6,HIGH,6,Surface / form,Surface / form
+16,8e5efe91899dab2b,"M1,M2",1,LOW,1,Factual detail,Factual detail
+17,060443cf4fcf8af2,"M2,M5",7,LOW,6,Surface / form,Input processing
+18,958af415f329d44a,"M0,M1,M4-100%,M5",4,HIGH,6,Surface / form,Extrinsic content
+19,42242567dd151b17,"M0,M1,M4-100%,M5",4,HIGH,1,Factual detail,Extrinsic content
+20,4888fbed9ccfea9a,"M1,M2",3,HIGH,2,Factual detail,Logical
+21,d11480a483d7be5e,"M0,M1,M2,M5",2,HIGH,5,Logical,Factual detail
+22,c828a2933c4e0db5,"M1,M2",6,HIGH,6,Surface / form,Surface / form
+23,617f61ac8b40dd36,"M1,M2",2,HIGH,2,Factual detail,Factual detail
+24,d9a2b0574446d254,"M0,M1",1,HIGH,5,Logical,Factual detail
+25,db30abddb98e9ae4,M2,6,HIGH,6,Surface / form,Surface / form
+26,6e8c1973ce229c62,"M1,M2",1,HIGH,1,Factual detail,Factual detail
+27,92041aba822667d0,M1,1,HIGH,5,Logical,Factual detail
+28,7591ecb65e5e4e92,"M0,M2,M5",2,HIGH,8,Surface / form,Factual detail
+29,385052819c15ded9,"M1,M2",1,HIGH,1,Factual detail,Factual detail
+30,94feb75cdaa7ae43,M2,6,HIGH,6,Surface / form,Surface / form
+31,01cc7ad3ca0f27cc,M2,1,HIGH,1,Factual detail,Factual detail
+32,9c83c0eb7cc6626b,M2,1,HIGH,5,Logical,Factual detail
+33,2ab4237c21a46f43,"M1,M2",6,HIGH,6,Surface / form,Surface / form
+34,a9a6a62432d9e3be,"M1,M2",3,HIGH,2,Factual detail,Logical
+35,1ee7ccbbb6738582,M1,6,HIGH,6,Surface / form,Surface / form
+36,69f011e9434f6594,"M0,M1,M5",4,HIGH,1,Factual detail,Extrinsic content
+37,3b44867e50c863a6,"M0,M1,M4-100%,M5",4,HIGH,6,Surface / form,Extrinsic content
+38,c2ca857b2f53dbe2,M2,6,HIGH,6,Surface / form,Surface / form
+39,20c399e8905b8407,"M2,M4-100%",5,LOW,2,Factual detail,Logical
+40,a09f20ca8741e1a6,M5,1,HIGH,1,Factual detail,Factual detail
+41,1ed6f3156dd70fe2,"M0,M1,M2",2,HIGH,5,Logical,Factual detail
+42,3261540f76edf39b,"M2,M4-100%",5,HIGH,2,Factual detail,Logical
+43,3c9cecc31b4ac094,"M1,M2",1,HIGH,1,Factual detail,Factual detail
+44,888d038c368351b2,M1,8,LOW,8,Surface / form,Surface / form
+45,d742480bf6431cde,"M2,M4-100%",5,HIGH,2,Factual detail,Logical
+46,6b641b11709e4fb9,"M1,M2",1,HIGH,1,Factual detail,Factual detail
+47,eb0586c8eb31e6af,M2,6,HIGH,6,Surface / form,Surface / form
+48,48937c90c740dc46,"M1,M2",1,HIGH,2,Factual detail,Factual detail
+49,61999ead8e7fb84b,"M0,M2",3,HIGH,5,Logical,Logical
+50,e6d0d6a7946b5b69,M2,1,HIGH,1,Factual detail,Factual detail
+51,498c7bfb5f07efc5,M5,2,HIGH,2,Factual detail,Factual detail
+52,2d6a6ea4c1c701c4,"M1,M5",4,LOW,1,Factual detail,Extrinsic content
+53,9c1ef5988bbb12fe,"M1,M2",1,HIGH,1,Factual detail,Factual detail
+54,1eb4ce8135aa2ca7,"M2,M4-100%",5,HIGH,4,Extrinsic content,Logical
+55,30424a40469183bb,M2,1,HIGH,1,Factual detail,Factual detail
+56,3ec53327c746ac93,M1,6,HIGH,6,Surface / form,Surface / form
+57,12e550945e651bc5,"M1,M2",1,HIGH,1,Factual detail,Factual detail
+58,74077fdb4fbb3916,"M1,M2",6,HIGH,6,Surface / form,Surface / form
+59,32f97c84752409a7,M2,2,HIGH,2,Factual detail,Factual detail
+60,6b0b0d18df790862,"M1,M2",6,HIGH,6,Surface / form,Surface / form
+61,13ba8f260c940efa,"M0,M1,M2",3,HIGH,5,Logical,Logical
+62,454f5cc81b5e6454,M0,6,LOW,10,Factual detail,Surface / form
+63,33493045716a526c,"M0,M1,M2",3,HIGH,5,Logical,Logical
+64,95550b51d9822a84,"M0,M2",2,HIGH,5,Logical,Factual detail
+65,16fc5dfb89489275,"M0,M1,M2",2,HIGH,5,Logical,Factual detail
+66,8200b2476d9738af,M5,6,LOW,6,Surface / form,Surface / form
+67,e1752789f907635e,M0,2,HIGH,5,Logical,Factual detail
+68,1ee8f3aba5e3d01a,M2,6,HIGH,6,Surface / form,Surface / form
+69,f06f3a2ed5311c65,"M0,M5",1,HIGH,5,Logical,Factual detail
+70,8129cdb525d9e618,"M0,M1,M2,M4-100%,M5",6,HIGH,9,Surface / form,Surface / form
+71,2eca03cdaabdf72e,"M0,M1,M4-100%",4,HIGH,6,Surface / form,Extrinsic content
+72,4caa90f43cb6fcdd,"M0,M1,M2,M4-100%,M5",2,HIGH,5,Logical,Factual detail
+73,5a055a9e14fc86ef,"M0,M2",5,LOW,5,Logical,Logical
+74,1c0999023cd1e2b7,"M0,M2",1,HIGH,5,Logical,Factual detail
+75,d6024eac60ea7580,"M0,M2",4,HIGH,10,Factual detail,Extrinsic content
+76,a15eb0c362dd41bf,"M0,M1,M2",6,HIGH,5,Logical,Surface / form
+77,c53a00377f1f6bfb,"M1,M2",6,HIGH,6,Surface / form,Surface / form
+78,297f825225b5a6e2,M2,5,HIGH,2,Factual detail,Logical
+79,48723826509d377f,M1,8,LOW,8,Surface / form,Surface / form
+80,a7c0a2b1d7eff9e4,"M0,M1,M2,M5",1,HIGH,5,Logical,Factual detail
+81,daa70dcbabe8893b,M2,6,HIGH,6,Surface / form,Surface / form
+82,aa538e665c98afb5,M2,6,HIGH,6,Surface / form,Surface / form
+83,3021f8e9a542237e,M2,10,HIGH,4,Extrinsic content,Factual detail
+84,2c94094d8714d969,M2,5,HIGH,2,Factual detail,Logical
+85,7f396b5f11eb40a6,"M2,M4-100%",4,LOW,1,Factual detail,Extrinsic content
+86,9d01e10db5145dca,"M0,M2,M5",1,HIGH,5,Logical,Factual detail
+87,2008215f8e6dff2d,"M1,M2",1,HIGH,1,Factual detail,Factual detail
+88,929057a392eefb1c,"M1,M2",1,HIGH,1,Factual detail,Factual detail
+89,83520b717e1c97fc,M1,1,HIGH,2,Factual detail,Factual detail
+90,91ef5c7afbd79693,"M1,M2",6,HIGH,6,Surface / form,Surface / form
+91,d510f8b6de6a1948,"M4-100%,M5",6,HIGH,6,Surface / form,Surface / form
+92,1b00438eefdd99ff,M1,6,LOW,6,Surface / form,Surface / form
+93,deadd82e6b00fd56,"M1,M2",6,HIGH,6,Surface / form,Surface / form
+94,d3cbd2ec8e32fb47,"M0,M1,M4-100%,M5",4,HIGH,6,Surface / form,Extrinsic content
+95,9b094edd6d9d6cbb,M2,4,LOW,1,Factual detail,Extrinsic content
+96,36c878fbc814719a,"M0,M1,M2,M4-100%,M5",2,HIGH,5,Logical,Factual detail
+97,d56427d29050a480,M2,6,HIGH,6,Surface / form,Surface / form
+98,1aae55af28dd2bcb,M2,4,LOW,1,Factual detail,Extrinsic content
+99,a9811da0180b7f77,"M0,M1,M2,M5",4,HIGH,6,Surface / form,Extrinsic content
+100,fc4228269bad4ad6,"M0,M1,M2",1,HIGH,5,Logical,Factual detail

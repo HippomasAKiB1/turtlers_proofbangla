@@ -1,0 +1,22 @@
+[
+ {
+  "pair": "BangHallu train->test",
+  "exact_duplicates": 151,
+  "near_duplicate_test_rows": 275
+ },
+ {
+  "pair": "BangHallu train->olikbochon",
+  "exact_duplicates": 9,
+  "near_duplicate_test_rows": 30
+ },
+ {
+  "pair": "BangHallu train->banglagovrag",
+  "exact_duplicates": 0,
+  "near_duplicate_test_rows": 0
+ },
+ {
+  "pair": "BangHallu train->bdlegalqa",
+  "exact_duplicates": 0,
+  "near_duplicate_test_rows": 0
+ }
+]

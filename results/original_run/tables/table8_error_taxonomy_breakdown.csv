@@ -1,0 +1,17 @@
+Category,Macro-bucket,M0,M1,M2,M3-100%,M4-100%,M5
+1. Numeric / date / quantity mismatch,Factual detail,100 (8.7%),163 (11.7%),179 (13.6%),189 (13.7%),80 (9.0%),88 (27.1%)
+2. Entity / term substitution,Factual detail,2 (0.2%),93 (6.7%),394 (30.0%),359 (26.1%),102 (11.5%),49 (15.1%)
+3. Negation / polarity flip,Logical,23 (2.0%),6 (0.4%),77 (5.9%),77 (5.6%),20 (2.3%),0 (0.0%)
+4. Unsupported addition (extrinsic),Extrinsic content,0 (0.0%),2 (0.1%),34 (2.6%),38 (2.8%),30 (3.4%),15 (4.6%)
+5. Subtle intrinsic contradiction,Logical,137 (11.9%),94 (6.8%),134 (10.2%),154 (11.2%),46 (5.2%),41 (12.6%)
+6. Paraphrase / lexical divergence,Surface / form,638 (55.5%),788 (56.7%),439 (33.4%),338 (24.6%),389 (44.0%),126 (38.8%)
+7. Context truncation loss,Input processing,0 (0.0%),0 (0.0%),0 (0.0%),0 (0.0%),0 (0.0%),0 (0.0%)
+8. Code-switch / script mismatch,Surface / form,239 (20.8%),236 (17.0%),17 (1.3%),175 (12.7%),203 (23.0%),2 (0.6%)
+9. Numeral / Unicode normalisation variant,Surface / form,1 (0.1%),1 (0.1%),1 (0.1%),0 (0.0%),1 (0.1%),1 (0.3%)
+10. Legal reference mismatch,Factual detail,10 (0.9%),6 (0.4%),40 (3.0%),46 (3.3%),13 (1.5%),3 (0.9%)
+Total errors,,1150,1389,1315,1376,884,325
+Bucket: Factual detail,Factual detail,9.7%,18.9%,46.6%,43.2%,22.1%,43.1%
+Bucket: Logical,Logical,13.9%,7.2%,16.0%,16.8%,7.5%,12.6%
+Bucket: Extrinsic content,Extrinsic content,0.0%,0.1%,2.6%,2.8%,3.4%,4.6%
+Bucket: Surface / form,Surface / form,76.3%,73.8%,34.8%,37.3%,67.1%,39.7%
+Bucket: Input processing,Input processing,0.0%,0.0%,0.0%,0.0%,0.0%,0.0%

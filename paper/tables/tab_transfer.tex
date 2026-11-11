@@ -1,0 +1,9 @@
+\begin{tabular}{@{}lcccccc c@{}}
+\toprule
+Model & Native F1 & BH F1 & 95\% CI & AUROC & AUPRC & ECE & $\Delta$ \\
+\midrule
+M0 Lexical containment & -- & 0.653 & [0.624, 0.679] & 0.594 & 0.534 & 0.429 & -- \\
+M1 LettuceDetect (ModernBERT, English) & 0.773 & 0.533 & [0.506, 0.562] & 0.546 & 0.527 & 0.446 & $-0.240$ \\
+M2 LettuceDetect (EuroBERT-210M, Chinese) & 0.746 & 0.508 & [0.482, 0.536] & 0.512 & 0.514 & 0.301 & $-0.237$ \\
+\bottomrule
+\end{tabular}

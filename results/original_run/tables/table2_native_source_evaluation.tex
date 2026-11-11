@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Native-language source-test evaluation: released English M1 on English RAGTruth; released Chinese-fine-tuned M2 on translated Chinese RAGTruth; optional M2* on English RAGTruth. Threshold fixed at 0.5. Source scores are language-specific and should not be interpreted as a same-language head-to-head comparison.}
+\label{tab:table2_native_source_evaluation}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccccc}
+\toprule
+Model & Source test set & Token Precision & Token Recall & Token F1 & Span Precision & Span Recall & Span F1 & Answer Macro-F1 & AUROC & N \\
+\midrule
+M1 — released English LettuceDetect (ModernBERT-base) & RAGTruth English (released M1 training language) & \textbf{0.502} & \textbf{0.553} & \textbf{0.526} & \textbf{0.466} & \textbf{0.701} & \textbf{0.560} & \textbf{0.773} & \textbf{0.857} & 2675 \\
+M2 — released EuroBERT-210M LettuceDetect (Chinese RAGTruth fine-tune) & RAGTruth-CN translated Chinese (released M2 training language) & \underline{0.359} & \underline{0.486} & \underline{0.413} & \underline{0.349} & \underline{0.637} & \underline{0.451} & \underline{0.746} & \underline{0.844} & 2700 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

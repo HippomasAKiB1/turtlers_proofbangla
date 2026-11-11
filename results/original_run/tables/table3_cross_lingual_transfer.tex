@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Frozen model weights transferred to Bengali (BangHallu test); tau* tuned on BangHallu dev only and frozen. Native-source scores use English RAGTruth for M1/M2* and translated Chinese RAGTruth for released M2, so source-language scores must be interpreted by source set.}
+\label{tab:table3_cross_lingual_transfer}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccccccccccc}
+\toprule
+Model & Native source test set & Macro-F1 & 95\% CI & Precision & Recall & AUROC & AUPRC & ECE & Latency ms/ex & Peak VRAM MB & tau* & Native source-test Macro-F1 & $\Delta$ Native source$\rightarrow$BN \\
+\midrule
+M0 Lexical containment & n/a & \textbf{0.653} & [0.624, 0.679] & \textbf{0.621} & \textbf{0.839} & \textbf{0.594} & \textbf{0.534} & \underline{0.429} & \textbf{0.087} & \textbf{8.125} & 0.006 & -- & -- \\
+M1 released English LettuceDetect (ModernBERT) & RAGTruth English & \underline{0.533} & [0.506, 0.562] & \underline{0.534} & \underline{0.707} & \underline{0.546} & \underline{0.527} & 0.446 & 12.093 & \underline{587.880} & 0.003 & 0.773 & -0.240 \\
+M2 released EuroBERT-210M LettuceDetect (Chinese RAGTruth fine-tune) & RAGTruth-CN translated Chinese & 0.508 & [0.482, 0.536] & 0.509 & 0.578 & 0.512 & 0.514 & \textbf{0.301} & \underline{7.102} & 674.521 & 0.420 & 0.746 & -0.237 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

@@ -1,0 +1,7 @@
+Measure,Value
+unique questions: train / dev / test,2924 / 619 / 614
+test questions also in train,0 (0.0%)
+dev questions also in train,0 (0.0%)
+test questions also in dev,0 (0.0%)
+test rows whose question is in train,0 (0.0%)
+test rows whose answer text (normalised) is in train,0 (0.0%)
