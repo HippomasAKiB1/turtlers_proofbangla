@@ -1,0 +1,16 @@
+{
+  "title": "Do Hallucination Detectors Read the Context? Transfer, Adaptation, and Grounding in Bengali Retrieval-Augmented Generation",
+  "upload_type": "software",
+  "description": "<p>Companion repository of the paper submitted to ACM TALLIP. It contains the notebooks, frozen thresholds, per-example predictions (hashed ids and scores, no dataset text), original-run and post hoc result tables and figures, and the error-analysis annotation files behind every number in the paper.</p><p>Licences: code under MIT (LICENSE); research outputs (predictions, results, annotation data, documentation) under CC BY 4.0 (LICENSE-DATA.md); the manuscript in paper/ is not licensed. No dataset is redistributed.</p>",
+  "creators": [
+    {"name": "Pyil, Akib Hasan", "affiliation": "American International University-Bangladesh"},
+    {"name": "Rhythm, Nazat E Rose", "affiliation": "American International University-Bangladesh"},
+    {"name": "Nishat, Most. Sumaiya Habiba", "affiliation": "American International University-Bangladesh"},
+    {"name": "Islam, Md. Ariful", "affiliation": "American International University-Bangladesh"},
+    {"name": "Shafi, S M Abdullah", "affiliation": "American International University-Bangladesh"}
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": ["hallucination detection", "retrieval-augmented generation", "Bengali", "low-resource languages", "grounding", "cross-lingual transfer"],
+  "language": "eng"
+}
